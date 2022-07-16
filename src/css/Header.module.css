@@ -1,0 +1,78 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url(../Assets/Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(../Assets/Fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../Assets/Fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../Assets/Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url(../Assets/Fonts/Roboto-Thin.ttf);
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    height: 50;
+    width: 100px;
+    color: #68BB1D;
+    font-size: 33px;
+    font-weight: 500;
+    font-family: 'roboto';
+    font-weight: 700;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.headerSubtitle {
+    height: 50;
+    /* width: 800px; */
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+}
+
+.homebtn {
+    font-size: 16px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    /* font-weight: 700; */
+    font-family: RobotoMedium;
+}
+
+.homebtn:hover {
+    background-color: #68BB1D;
+    cursor: pointer;
+}
+
+

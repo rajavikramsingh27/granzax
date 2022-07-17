@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import '../css/Screen.module.css';
 
 import firstpick from '../Assets/Images/firstpick.png';
@@ -25,9 +26,10 @@ import Footer from '../utils/Footer'
 
 
 export default class Screen extends Component {
+
   render() {
     return (
-      <body>
+      <div>
         <Header />
         <div className='titlebox'>
           <div className='textbox'>
@@ -184,7 +186,7 @@ export default class Screen extends Component {
           </div>
           <Footer />
         </div>
-      </body>
+      </div>
     )
   }
 }

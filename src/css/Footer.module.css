@@ -25,14 +25,13 @@
 }
 
 .footer {
-    height: 400px;
     background-color: #1D1D1D;
-    margin-top: 130px;
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: RobotoMedium;
+    font-family: 'Palatino';
+    padding-bottom: 16px;
 }
 
 .footertitle {
@@ -41,7 +40,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-family: RobotoMedium;
+    
 }
 
 .footertitle:hover {
@@ -50,14 +49,12 @@
 
 .footertext {
     font-size: 25px;
-    font-family: RobotoMedium;
     margin-bottom: 20px;
 }
 
 .footerminitext {
     font-size: 14px;
     margin-top: 8px;
-    font-family: RobotoMedium;
 }
 
 .footerminitext:hover {
@@ -69,8 +66,9 @@
     background-color: #1D1D1D;
     border-top: 1px solid #68BB1D;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -79,23 +77,24 @@
 .copyright {
     font-size: 16px;
     color: #68BB1D;
-    padding-top: 15px;
-    font-family: RobotoRegular;
+    padding-top: 16px;
+    font-family: 'Palatino';
 }
 
 .ftily {
-    font-size: 16px;
-    color: #68BB1D;
     padding-top: 15px;
     padding-left: 6px;
-    font-family: RobotoMedium;
+    font-size: 36px;
+    color: #68BB1D;
+    font-family: 'Palatino';
 }
 
-@media only screen and (max-width: 768px) {
-    bg {
-        background-color: #68BB1D;
+@media screen and (max-width: 900px) {
+    .footer {
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: space-between; */
     }
-
 }
 
 

@@ -53,13 +53,19 @@ function  ScreenAbout() {
     <div className='radiousbox'>
       <div className='radiousbox1'>
         <div className='boxtitle'>We take care of each other </div>
-        <div className='webelieve'>We believe in establishing transparent communications with our clients. The key to a strong and ever-lasting bond is communication and understanding between two parties.</div>
+        <div className='webelieve'>We are your tech partners and you are a part of our team. We care for our clients and provide tech suggestions from time to time: before, during, and after the project completion.</div>
       </div>
       <div className='radiousbox2'>
       <div className='boxtitle'>Experience Speaks Louder </div>
-      <div className='webelieve'>Payment is expected only after the successful accomplishment of each module. We believe in the work and we rely upon mutual trust throughout the project. </div>
+      <div className='webelieve'>We’ve created apps and CRM software that cater more than 5000 orders per day. We’ve expertise in managing huge databases of more than 1 million users. </div>
       </div>
      
+    </div>
+    <div className='wtextbox'>
+    <div className=' satisfied'>A satisfied client means a <div happy :)company</div>
+    <div className=' satisfied'></div>
+  
+  
     </div>
     
      </body>

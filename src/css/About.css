@@ -67,7 +67,7 @@
     border-radius: 30px;
 }
 .boxtitle{
-    width: 200px;
+    width: 230px;
     font-size:30px ;
     font-family: 'Roboto-Medium', sans-serif;
    padding: 40px;
@@ -77,6 +77,11 @@
 .webelieve{
     color: white;
   width: 360px;
-    line-height: 35px;
+    line-height: 40px;
     margin-left: 20px;
+}
+.satisfied{
+    font-size: 30px;
+    color: #68BB1D;
+    width: 350px;
 }

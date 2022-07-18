@@ -1,0 +1,149 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url(../Assets/Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(../Assets/Fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../Assets/Fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../Assets/Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url(../Assets/Fonts/Roboto-Thin.ttf);
+}
+
+*{
+    font-family: 'Palatino';
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    height: 50;
+    width: 100px;
+    color: #68BB1D;
+    font-size: 33px;
+    font-weight: 500;
+    font-weight: 700;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.headerSubtitle {
+    height: 50;
+    /* width: 800px; */
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+}
+
+.homebtn {
+    font-size: 16px;
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.homebtn:hover {
+    background-color: #68BB1D;
+    cursor: pointer;
+}
+
+.menuBox {
+    /* width: 40%; */
+}
+
+.menu {
+    border-width: 1px;
+    color: white;
+    padding: 10px;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: 'Palatino';
+    display: none;
+}
+
+.menuBoxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+    .headerSubtitle {
+        display: flex;
+        flex-direction: column;
+        background-color: #68BB1D;
+        border-radius: 6px;
+    }
+
+    .homebtn {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .homebtn:hover {
+        background-color: white;
+        color: #68BB1D;
+        cursor: pointer;
+        align-self: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .menu {
+        border-width: 1px;
+        color: white;
+        background-color: #68BB1D;
+        padding: 10px;
+        line-height: 36px;
+        height: 36px;
+        border-radius: 6px;
+        display: block;
+    }
+
+    .menu:hover {
+        cursor: pointer;
+    }
+
+    .menuBox {
+        height: 340px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+}
+
+

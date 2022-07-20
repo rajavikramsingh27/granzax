@@ -3,7 +3,6 @@
 import React, { Component } from 'react'
 import Styles from '../css/Header.module.css'
 import { NavLink } from 'react-router-dom';
-import { faL } from '@fortawesome/free-solid-svg-icons';
 
 export default class Header extends Component {
 
@@ -28,9 +27,9 @@ export default class Header extends Component {
     return (<div className={Styles.headerSubtitle}>
       <NavLink className={Styles.homebtn} to="/" >Home</NavLink>
       <NavLink className={Styles.homebtn} to="/ScreenAbout" >About</NavLink>
-      <NavLink className={Styles.homebtn} to="/" >Service</NavLink>
+      <NavLink className={Styles.homebtn} to="/Services" >Service</NavLink>
       <NavLink className={Styles.homebtn} to="/" >Portfolio</NavLink>
-      <NavLink className={Styles.homebtn} to="/" >We work</NavLink>
+      <NavLink className={Styles.homebtn} to="/" > We work</NavLink>
       <NavLink className={Styles.homebtn} to="/" >Career</NavLink>
       <NavLink className={Styles.homebtn} to="/" >Contact</NavLink>
     </div>)

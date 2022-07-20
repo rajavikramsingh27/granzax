@@ -25,6 +25,7 @@
 
 *{
     font-family: 'Palatino';
+    /* padding: 16px; */
 }
 
 .header {
@@ -69,7 +70,7 @@
     font-size: 16px;
     justify-content: center;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     text-decoration: none;
 }
 

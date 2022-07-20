@@ -1,0 +1,129 @@
+*{
+    font-family: 'Palatino';
+    /* padding: 16px; */
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.servicetext{
+    color: white;
+    font-size: 90px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.servicetext:hover{
+    cursor: pointer;
+}
+.webuild{
+    font-size: 30px;
+    font-family: 'Roboto-Medium', sans-serif;
+    color:#68BB1D; 
+    padding-top: 30px;
+}
+.what{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.minititle{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.servicetitlebox{
+    height: 450px;
+    background-color: #1D1D1D;
+    margin-top: 100px;
+    border-radius: 30px;
+    /* padding-left: 50px; */
+}
+.servicetitle{
+    font-size: 40px;
+    color: white;
+}
+.servicetitle:hover{
+    color: #68BB1D;
+    cursor: pointer;
+}
+.detailsbox{
+    height: 350px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.details{
+    width: 360px;
+    height: 350px;
+    /* background-color: antiquewhite; */
+    margin-left: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.text:hover{
+    cursor: pointer;
+
+}
+.arrow{
+    height: 15px;
+width: 28px;
+}
+.inter{
+    font-size: 15px;
+    color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.inter:hover{
+    color: #68BB1D;
+    cursor: pointer;
+}
+
+.aboutbtn {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 40px;
+    line-height: 40px;
+    border: 1px solid #68BB1D;
+    color: #68BB1D;
+    font-size: 18px;
+   margin-left: 80px;
+    margin-top: 70px;
+}
+
+.aboutbtn:hover {
+    cursor: pointer;
+    background-color: #68BB1D;
+    color: black;
+}
+
+.arrow {
+    height: 10px;
+    width: 30px;
+}
+.designicon{
+    height: 80px;
+    width: 62px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.mobileicon{
+    height: 80px;
+    width: 50px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.game{
+    height: 60px;
+    width: 60px;
+    margin-left: 170px;
+    margin-top: 20px;
+}

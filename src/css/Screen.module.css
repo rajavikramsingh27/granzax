@@ -23,10 +23,18 @@
     src: url(../Assets/Fonts/Roboto-Thin.ttf);
 }
 
+*{
+    font-family: 'Palatino';
+    /* padding: 16px; */
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 
 body {
     background-color: #282c34;
-    /* padding: 40px; */
+    /* padding: 20px; */
 }
 
 .header {
@@ -247,24 +255,24 @@ body {
 }
 
 .graybox {
-    height: 550px;
+    height: 580px;
     background-color: hsl(0, 1%, 23%);
+    margin-top: 50px;
 
 }
 
 .ourteam {
     font-size: 50px;
     text-align: center;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 600;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     color: white;
 }
 
 .wedo {
     font-size: 18px;
     text-align: center;
-    margin: 60px;
+    /* margin: 60px; */
     color: white;
 
 }
@@ -292,7 +300,6 @@ body {
 
 .bigtext {
     font-size: 130px;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 600;
     text-align: center;
     padding-top: 30px;
@@ -313,18 +320,18 @@ body {
 }
 
 .tharity {
+    /* margin-top: 10px; */
     font-size: 70px;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #68BB1D;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .creative {
     font-size: 14px;
     color: white;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 
 }
 
@@ -340,7 +347,6 @@ body {
     font-size: 30px;
     color: #68BB1D;
     padding-top: 50px;
-    font-family: 'Roboto-Medium', sans-serif;
 }
 
 .details {
@@ -405,7 +411,6 @@ body {
 .icontext {
     font-size: 16px;
     width: 130px;
-    /* font-family: 'Roboto-Bold', sans-serif; */
     padding: 15px;
     color: white;
     margin-top: -10px;
@@ -413,7 +418,6 @@ body {
 
 .uiux {
     font-size: 40px;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 600;
     margin-left: 30px;
     padding: 20px;
@@ -429,14 +433,12 @@ body {
     font-size: 55px;
     text-align: center;
     color: white;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 600;
 
 }
 
 .tech {
     font-size: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
     /* font-weight: 600; */
     color: #68BB1D;
     text-align: center;
@@ -477,7 +479,6 @@ body {
 
 .recentilywork {
     font-size: 45px;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #68BB1D;
@@ -491,7 +492,7 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-    margin-left: 10%;
+    margin-left: -10px;
     color: white;
 
 }
@@ -499,13 +500,15 @@ body {
 .pick1 {
     height: 370px;
     width: 50%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .pick2 {
     height: 370px;
-    width: 45%;
-    background-color: pink;
+    /* width: 50%; */
+    width: 50%;
+    /* background-color: pink; */
+
 }
 
 .desplay {
@@ -516,7 +519,7 @@ body {
 
 .Abc {
     font-size: 35px;
-    font-family: 'Roboto-Bold', sans-serif;
+  
     font-weight: 700;
     margin-top: 10px;
 
@@ -524,8 +527,6 @@ body {
 
 .mobileapp {
     font-size: 18px;
-    font-family: 'Roboto-Bold', sans-serif;
-    margin-top: 10px;
 
 }
 
@@ -552,7 +553,6 @@ body {
 
 .footertext {
     font-size: 25px;
-    font-family: 'Roboto-Bold', sans-serif;
     margin-bottom: 20px;
 
 }
@@ -560,7 +560,6 @@ body {
 .footerminitext {
     font-size: 14px;
     margin-top: 8px;
-    font-family: 'Roboto-Medium', sans-serif;
 }
 
 .footerminitext:hover {
@@ -581,7 +580,6 @@ body {
     font-size: 13px;
     color: #68BB1D;
     padding-top: 15px;
-    font-family: 'Roboto-Medium', sans-serif;
 }
 
 .ftily {
@@ -590,7 +588,6 @@ body {
     color: #68BB1D;
     padding-top: 15px;
     word-spacing: 6px;
-    font-family: 'Roboto-Medium', sans-serif;
 }
 
 

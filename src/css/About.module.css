@@ -1,0 +1,251 @@
+*{
+    font-family: 'Palatino';
+    /* padding: 16px; */
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.abouttext{
+    color: white;
+    font-size: 90px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.abouttext:hover{
+    cursor: pointer;
+}
+.transforming{
+    font-size: 30px;
+    font-family: 'Roboto-Medium', sans-serif;
+    color:#68BB1D; 
+    padding-top: 30px;
+}
+.wtextbox{
+    height: 300px;
+    /* background-color: antiquewhite; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.wtext1{
+      width: 560px;
+      /* background-color: aqua; */
+      border-right: 3px solid #68BB1D;
+}
+.wtext1:hover{
+    cursor: pointer;
+}
+.wtext2{
+    width: 580px;
+    /* background-color: red; */
+    margin-left: 60px;
+
+}
+.wtext2:hover{
+    cursor: pointer;
+}
+.wholine{
+    font-size: 35px;
+    color: white;
+    font-family: 'Roboto-Medium', sans-serif;
+}
+.whominitext{
+    width: 450px;
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.whominitext:hover{
+    cursor: pointer;
+}
+.weare{
+    font-size: 45px;
+    color: white;
+    font-family: 'Roboto-Medium', sans-serif;
+    padding-top: 100px;
+}
+.radiousbox{
+    height: 400px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.radiousbox1{
+    width: 400px;
+    background-color: #1D1D1D;
+    border-radius: 30px;
+}
+.radiousbox1:hover{
+    cursor: pointer;
+}
+.radiousbox2{
+    width: 400px;
+    background-color: #1D1D1D;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.radiousbox2:hover{
+    cursor: pointer;
+}
+.boxtitle{
+    width: 300px;
+    font-size:30px ;
+    font-family: 'Roboto-Medium', sans-serif;
+   padding: 40px;
+   color: #68BB1D;
+   line-height: 45px;
+}
+.webelieve{
+    color: white;
+  width: 360px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+.satesfied{
+    /* background-color: #1D1D1D; */
+    height: 450px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+.radiousbox3{
+    width: 300px;
+    /* background-color: #1D1D1D; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 32px;
+}
+.radiousbox3:hover{
+    cursor: pointer;
+}
+
+.radiousbox4{
+    width: 400px;
+    /* background-color: #1D1D1D; */
+    margin-left: 100px;
+    border-radius: 30px;
+    color: white;
+    line-height: 40px;
+}
+.radiousbox4:hover{
+    cursor: pointer;
+}
+.the{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+}
+.threebox{
+    height: 480px;
+    /* background-color: #1D1D1D; */
+     margin: 50px;
+}
+.threebg{
+    height: 130px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: row;
+}
+.three{
+    width: 270px;
+    height: 100px;
+    background-color:#1D1D1D ;
+    margin-left: 30px;
+    border-radius: 20px;
+ border: 2px solid #68BB1D;
+ color: white;
+
+}
+.three:hover{
+    background-color: #68BB1D;
+    cursor: pointer;
+    color: black;
+}
+.threetext{
+    width: 150px;
+    font-size: 20px;
+}
+.threetextmindful{
+    width: 180px;
+    font-size: 20px;
+}
+.threebest{
+    width: 270px;
+    height: 100px;
+    background-color:#1D1D1D ;
+    margin-left: 220px;
+    border-radius: 20px;
+ border: 2px solid #68BB1D;
+ color: white;  
+}
+.threebest:hover{
+    background-color: #68BB1D;
+    cursor: pointer;
+    color: black;
+}
+
+.wanttextbox {
+    height: 120px;
+    /* background-color:aqua;  */
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.wanttext {
+    font-size: 40px;
+    font-weight: 600;
+    color:#68BB1D;
+    font-family: 'Roboto-Bold', sans-serif;
+
+}
+.wanttext:hover{
+    cursor: pointer;
+   
+}
+.aboutbtn {
+    height: 50px;
+    width: 170px;
+    /* background-color: aliceblue; */
+    text-align: center;
+    justify-content: center;
+    border-radius: 40px;
+    line-height: 40px;
+    border: 1px solid #68BB1D;
+    color: #68BB1D;
+    margin-left: 400px;
+    font-size: 18px;
+    /* font-weight: 500; */
+    /* margin-top: 50px; */
+    font-weight: 700;
+}
+
+.aboutbtn:hover {
+    cursor: pointer;
+    background-color: #68BB1D;
+    color: black;
+ 
+}
+
+.arrow {
+    height: 10px;
+    width: 30px;
+    margin-left: 8px;
+
+}
+.wealways{
+   margin-right: 420px;
+    color: white;
+line-height: 35px;
+margin-bottom: 50px;
+}

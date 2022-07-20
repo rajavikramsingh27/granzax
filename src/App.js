@@ -1,11 +1,11 @@
 // rcc
 
 import './App.css';
-import Screen from './Views/Screen';
+import Home from './Views/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Footer from './utils/Footer';
 import Header from './utils/Header';
-import ScreenAbout from './Views/ScreenAbout'
+import About from './Views/About'
 import Services from './Views/Services'
 
 
@@ -15,9 +15,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Screen />} />
-          <Route path='/Screen' element={<Screen />} />
-          <Route path='/ScreenAbout' element={<ScreenAbout />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/Screen' element={<Home />} />
+          <Route path='/ScreenAbout' element={<About />} />
           <Route path='/Services' element={<Services />} />
         </Routes>
       </BrowserRouter>

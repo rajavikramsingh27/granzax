@@ -1,25 +1,25 @@
 import React, { Component } from 'react'
-import Styles from '../css/Screen.module.css'
+import Styles from '../css/Home.module.css'
 import { ImageStyle } from '../utils/controller/ImageStyle';
 
 import Header from '../utils/Header'
 import Footer from '../utils/Footer'
 
 
-export default class Screen extends Component {
+export default class Home extends Component {
 
   render() {
     return (
-      <div>
-        <Header />
+      <div className={Styles.body}>
+        <Header/>
         <div className={Styles.titlebox}>
           <div className={Styles.textbox}>
             <div className={Styles.connecting}>Connecting dots from</div>
             <div className={Styles.design}>DESIGN to DEVELOPMENT</div>
             <div className={Styles.since}>since a decade.</div>
           </div>
-          <div className={Styles.ingbox}>
-            <img  className={ Styles.pick} src={ImageStyle.firstpick}/>
+          <div className={Styles.imgbox}>
+            <img className={Styles.pick} src={ImageStyle.GranzaXLogoTransparent} />
           </div>
 
         </div>
@@ -28,8 +28,8 @@ export default class Screen extends Component {
         <div className={Styles.overtextbox} >
           <div className={Styles.ourtext}>Our mission is to innovate, transform, & deliver</div>
           <div className={Styles.aboutbtn}>About
-        
-            <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+
+            <img className={Styles.arrow} src={ImageStyle.arrowright} />
           </div>
         </div>
         <div className={Styles.team}>
@@ -41,8 +41,8 @@ export default class Screen extends Component {
             <div className={Styles.minitext} >We have been revolutionizing businesses since 2022, and it is our mission to deliver powerful solutions that meet our client's objectives.</div>
           </div>
           <div className={Styles.teamimg}>
-          
-            <img  className={ Styles.workman} src={ImageStyle.worktime}/>
+
+            <img className={Styles.workman} src={ImageStyle.worktime} />
           </div>
         </div>
         <div className={Styles.graybox}>
@@ -62,82 +62,82 @@ export default class Screen extends Component {
 
           </div>
           <div className={Styles.overtextbox}>
-            <div  className={Styles.ourtext}>What can we do for you?</div>
+            <div className={Styles.ourtext}>What can we do for you?</div>
             <div className={Styles.aboutbtn}>All Services
-            
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+
+              <img className={Styles.arrow} src={ImageStyle.arrowright} />
             </div>
           </div>
           <div className={Styles.webelive}>We believe that our strength lies in the comprehensive services we provide to our clients. From full-stack development to just consultancy, we deliver exactly what you demand.</div>
           <div className={Styles.ourservice}>Our Services</div>
           <div className={Styles.details}>
-            <div  className={Styles.minibox} >
+            <div className={Styles.minibox} >
               <div className={Styles.radiousminibox}>
-                <img className={Styles.designicon}  src={ImageStyle.uidesign} />
+                <img className={Styles.designicon} src={ImageStyle.uidesign} />
                 <div className={Styles.icontext}>UI/UX & Graphic Design </div>
               </div>
               <div className={Styles.radiousminibox}>
-                <img  className={Styles.designicon} src={ImageStyle.mobile} />
-                <div  className={Styles.icontext}>Mobile App Development</div>
+                <img className={Styles.designicon} src={ImageStyle.mobile} />
+                <div className={Styles.icontext}>Mobile App Development</div>
               </div>
               <div className={Styles.radiousminibox}>
-                <img  className={Styles.designicon} src={ImageStyle.gameicon} />
-                <div   className={Styles.icontext}>Game Development</div>
+                <img className={Styles.designicon} src={ImageStyle.gameicon} />
+                <div className={Styles.icontext}>Game Development</div>
               </div>
               <div className={Styles.radiousminibox}>
-                <img  className={Styles.designicon} src={ImageStyle.webicon} />
-                <div   className={Styles.icontext}>Web   Development</div>
+                <img className={Styles.designicon} src={ImageStyle.webicon} />
+                <div className={Styles.icontext}>Web   Development</div>
               </div>
             </div>
-            <div  className={Styles.uitext}>
-              <div  className={Styles.uiux}>UI/UX & Graphic Design</div>
+            <div className={Styles.uitext}>
+              <div className={Styles.uiux}>UI/UX & Graphic Design</div>
 
-              <div  className={Styles.lorem}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum</div>
+              <div className={Styles.lorem}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum</div>
 
             </div>
           </div>
-          <div  className={Styles.trand}>Trending</div>
-          <div  className={Styles.tech}>Technologies</div>
-          <div  className={Styles.project}>
-            <div  className={Styles.pickicon} >
-              <img  className={Styles.projecticon} src={ImageStyle.flutter} />
-              <div   className={Styles.projectname}>Flutter</div>
+          <div className={Styles.trand}>Trending</div>
+          <div className={Styles.tech}>Technologies</div>
+          <div className={Styles.project}>
+            <div className={Styles.pickicon} >
+              <img className={Styles.projecticon} src={ImageStyle.flutter} />
+              <div className={Styles.projectname}>Flutter</div>
             </div>
-            <div  className={Styles.pickicon}>
-              <img  className={Styles.projecticon} src={ImageStyle.gologo} />
-              <div  className={Styles.projectname}>Goiang </div>
+            <div className={Styles.pickicon}>
+              <img className={Styles.projecticon} src={ImageStyle.gologo} />
+              <div className={Styles.projectname}>Going </div>
             </div>
 
-            <div  className={Styles.pickicon}>
-              <img  className={Styles.projecticon} src={ImageStyle.Reacticon} />
-              <div  className={Styles.projectname}>React</div>
+            <div className={Styles.pickicon}>
+              <img className={Styles.projecticon} src={ImageStyle.Reacticon} />
+              <div className={Styles.projectname}>React</div>
             </div>
-            <div  className={Styles.pickicon}>
+            <div className={Styles.pickicon}>
               <img c className={Styles.projecticon} src={ImageStyle.firebase} />
-              <div  className={Styles.projectname}>Firebase</div>
+              <div className={Styles.projectname}>Firebase</div>
             </div>
-            <div  className={Styles.pickicon}>
-              <img  className={Styles.projecticon} src={ImageStyle.docker} />
-              <div  className={Styles.projectname}>Docker</div>
+            <div className={Styles.pickicon}>
+              <img className={Styles.projecticon} src={ImageStyle.docker} />
+              <div className={Styles.projectname}>Docker</div>
             </div>
-            <div  className={Styles.pickicon}>
-              <img  className={Styles.projecticon} src={ImageStyle.kuber} />
-              <div  className={Styles.projectname}>Kubernetes</div>
+            <div className={Styles.pickicon}>
+              <img className={Styles.projecticon} src={ImageStyle.kuber} />
+              <div className={Styles.projectname}>Kubernetes</div>
             </div>
 
           </div>
-          <div  className={Styles.recentilywork}>Our Work done recently </div>
+          <div className={Styles.recentilywork}>Our Work done recently </div>
 
 
-          <div  className={Styles.twopick}>
-          <div  className={Styles.pick1}>
-          
+          <div className={Styles.twopick}>
+            <div className={Styles.pick1}>
+
               <img className={Styles.desplay} src={ImageStyle.mobile1} />
-              <div  className={Styles.Abc}>Abc project</div>
+              <div className={Styles.Abc}>Abc project</div>
               <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
             </div>
             <div className={Styles.pick2}>
-              <img className={Styles.desplay}  src={ImageStyle.mobile2} />
+              <img className={Styles.desplay} src={ImageStyle.mobile2} />
               <div className={Styles.Abc}>Abc project</div>
               <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
             </div>

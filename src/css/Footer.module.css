@@ -28,9 +28,6 @@
     /* padding: 16px; */
 }
 
-
-
-
 .footer {
     background-color: #1D1D1D;
     color: white;
@@ -89,12 +86,22 @@
     font-family: 'Palatino';
 }
 
+.logo {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+}
+
+.logo_Name {
+    display: flex;
+    flex-direction: row;
+}
+
 .ftily {
-    padding-top: 15px;
-    padding-left: 6px;
-    font-size: 36px;
+    font-size: 30px;
     color: #68BB1D;
     font-family: 'Palatino';
+    margin-left: 6px;
 }
 
 @media screen and (max-width: 900px) {

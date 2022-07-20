@@ -25,69 +25,13 @@
 
 *{
     font-family: 'Palatino';
-    /* padding: 16px; */
-    padding-top: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
+    /* background-color: #282c34; */
 }
-
 
 body {
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #282c34;
-    /* padding: 20px; */
-}
-
-.header {
-    height: 50px;
-    /* background-color:aqua; */
-    display: flex;
-    flex-direction: row;
-
-}
-
-.logo {
-    height: 50;
-    width: 100px;
-    /* background-color:azure; */
-    color: #68BB1D;
-    font-size: 33px;
-    font-weight: 500;
-    font-family: 'Roboto-Bold', sans-serif;
-    font-weight: 700;
-}
-
-.logo:hover {
-    cursor: pointer;
-}
-
-.headerSubtitle {
-    height: 50;
-    width: 800px;
-    /* background-color: pink; */
-    margin-left: 300px;
-    display: flex;
-    flex-direction: row;
-}
-
-.homebtn {
-    font-size: 16px;
-    height: 40px;
-    width: 110px;
-    border-radius: 10px;
-    color: white;
-    margin-left: 20px;
-    font-size: 14px;
-    justify-content: center;
-    text-align: center;
-    line-height: 40px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-}
-
-.homebtn:hover {
-    background-color: #68BB1D;
-    cursor: pointer;
-
 }
 
 .titlebox {
@@ -112,7 +56,7 @@ body {
 }
 
 .pick {
-    height: 350px;
+    /* height: 350px; */
     width: 400px;
 }
 
@@ -120,7 +64,6 @@ body {
     font-size: 30px;
     color: #68BB1D;
     line-height: 80px;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
 }
 
@@ -133,7 +76,6 @@ body {
     /* font-weight:500; */
     padding-right: 100px;
     color: white;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
 }
 
@@ -141,14 +83,12 @@ body {
     cursor: pointer;
     color: #68BB1D;
     font-size: 60px;
-
 }
 
 .since {
     font-size: 40px;
     color: white;
     line-height: 70px;
-    font-family: 'Roboto-Medium', sans-serif;
 }
 
 .since:hover {
@@ -159,7 +99,6 @@ body {
     font-size: 25px;
     color: #68BB1D;
     padding-top: 20px;
-    font-family: 'Roboto-Medium', sans-serif;
 }
 
 .who:hover {
@@ -180,8 +119,6 @@ body {
     font-weight: 700;
     width: 700px;
     color: white;
-    font-family: 'Roboto-Bold', sans-serif;
-
 }
 
 .aboutbtn {
@@ -198,7 +135,6 @@ body {
     font-size: 18px;
     /* font-weight: 500; */
     margin-top: 50px;
-    font-family: 'Roboto-Bold', sans-serif;
 }
 
 .aboutbtn:hover {
@@ -227,14 +163,12 @@ body {
     width: 650px;
     height: 400px;
     line-height: 40px;
-
 }
 
 .minitext {
     font-size: 18px;
     color: white;
     margin: 15px;
-    font-family: 'Roboto-Medium', sans-serif;
 }
 
 .teamimg {
@@ -247,7 +181,6 @@ body {
 .workman {
     height: 250px;
     width: 300px;
-
 }
 
 .workman:hover {
@@ -257,8 +190,12 @@ body {
 .graybox {
     height: 580px;
     background-color: hsl(0, 1%, 23%);
-    margin-top: 50px;
-
+    /* margin-top: 50px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 6px;
 }
 
 .ourteam {
@@ -278,12 +215,13 @@ body {
 }
 
 .bigtextbox {
-    height: 280px;
-    width: 600px;
-    /* background-color: aliceblue;   */
-    margin-left: 300px;
+    /* height: 280px;
+    width: 600px; */
+    /* background-color: red;   */
+    margin-top: 20px;
     flex-direction: row;
     display: flex;
+    justify-content: center;
 }
 
 .bigtextbox:hover {
@@ -295,7 +233,6 @@ body {
     height: 270px;
     width: 350px;
     border-right: 2px solid #68BB1D;
-
 }
 
 .bigtext {
@@ -304,11 +241,10 @@ body {
     text-align: center;
     padding-top: 30px;
     color: #68BB1D;
-
 }
 
 .product {
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
     color: white;
 }
@@ -316,7 +252,8 @@ body {
 .box2 {
     /* background-color: rgb(255, 154, 21); */
     height: 270px;
-    width: 220px;
+    /* width: 220px; */
+    padding-left: 30px;
 }
 
 .tharity {
@@ -329,10 +266,9 @@ body {
 }
 
 .creative {
-    font-size: 14px;
+    font-size: 20px;
     color: white;
     /* margin-left: 30px; */
-
 }
 
 .webelive {
@@ -340,13 +276,14 @@ body {
     padding-top: 30px;
     color: white;
     margin-right: 200px;
-
+    background-color: transparent;
 }
 
 .ourservice {
     font-size: 30px;
     color: #68BB1D;
     padding-top: 50px;
+    background-color: transparent;
 }
 
 .details {

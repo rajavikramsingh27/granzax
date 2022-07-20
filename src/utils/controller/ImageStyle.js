@@ -21,16 +21,9 @@ import greenicon from "../../Assets/Images/greenicon.png"
 import greenmob from "../../Assets/Images/greenmob.png"
 import game2 from "../../Assets/Images/game2.png"
 import web from "../../Assets/Images/web.png"
-
-
-
-
-
-
-
-
-
-
+import GranzaXLogo from "../../Assets/Images/GranzaX Logo.png"
+import GranzaXLogoTransparent from "../../Assets/Images/GranzaX Logo Transparent.png"
+import GranzaXLogoTransparentR from "../../Assets/Images/GranzaX Logo TransparentR.png"
 
 
 
@@ -57,7 +50,9 @@ export const ImageStyle = {
     greenicon: greenicon,
     greenmob: greenmob,
     game2: game2,
-    web:web,
-
+    web: web,
+    GranzaXLogo: GranzaXLogo,
+    GranzaXLogoTransparent: GranzaXLogoTransparent,
+    GranzaXLogoTransparentR: GranzaXLogoTransparentR
 }
 

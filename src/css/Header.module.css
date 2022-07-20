@@ -34,17 +34,14 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
 }
 
 .logo {
-    height: 50;
-    width: 100px;
-    color: #68BB1D;
-    font-size: 33px;
-    font-weight: 500;
-    font-weight: 700;
+    height: 120px;
+    width: 120px;
+    border-radius: 4px;
 }
 
 .logo:hover {
@@ -60,9 +57,9 @@
 }
 
 .homebtn {
-    font-size: 16px;
-    height: 40px;
     width: 100px;
+    height: 40px;
+    line-height: 40px;
     border-radius: 6px;
     color: white;
     /* padding-left: 20px;
@@ -70,7 +67,6 @@
     font-size: 16px;
     justify-content: center;
     text-align: center;
-    line-height: 30px;
     text-decoration: none;
 }
 

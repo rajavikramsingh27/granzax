@@ -25,69 +25,14 @@
 
 *{
     font-family: 'Palatino';
-    /* padding: 16px; */
-    padding-top: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
+    /* background-color: #282c34; */
+    padding: 12px;
 }
-
 
 body {
+    /* padding-left: 20px;
+    padding-right: 20px; */
     background-color: #282c34;
-    /* padding: 20px; */
-}
-
-.header {
-    height: 50px;
-    /* background-color:aqua; */
-    display: flex;
-    flex-direction: row;
-
-}
-
-.logo {
-    height: 50;
-    width: 100px;
-    /* background-color:azure; */
-    color: #68BB1D;
-    font-size: 33px;
-    font-weight: 500;
-    font-family: 'Roboto-Bold', sans-serif;
-    font-weight: 700;
-}
-
-.logo:hover {
-    cursor: pointer;
-}
-
-.headerSubtitle {
-    height: 50;
-    width: 800px;
-    /* background-color: pink; */
-    margin-left: 300px;
-    display: flex;
-    flex-direction: row;
-}
-
-.homebtn {
-    font-size: 16px;
-    height: 40px;
-    width: 110px;
-    border-radius: 10px;
-    color: white;
-    margin-left: 20px;
-    font-size: 14px;
-    justify-content: center;
-    text-align: center;
-    line-height: 40px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-}
-
-.homebtn:hover {
-    background-color: #68BB1D;
-    cursor: pointer;
-
 }
 
 .titlebox {
@@ -100,7 +45,7 @@ body {
 
 .textbox {
     height: 400px;
-    width: 750px;
+    width: 700px;
     /* background-color: aqua; */
 }
 
@@ -108,19 +53,18 @@ body {
     height: 350px;
     width: 400px;
     /* background-color: blue; */
-    margin-left: 100px;
+   
 }
 
 .pick {
-    height: 350px;
+    /* height: 350px; */
     width: 400px;
 }
 
 .connecting {
     font-size: 30px;
-    color: #68BB1D;
+    color: white;
     line-height: 80px;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
 }
 
@@ -133,22 +77,19 @@ body {
     /* font-weight:500; */
     padding-right: 100px;
     color: white;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
 }
 
 .design:hover {
     cursor: pointer;
-    color: #68BB1D;
-    font-size: 60px;
-
+    /* color: #68BB1D; */
+  
 }
 
 .since {
     font-size: 40px;
     color: white;
     line-height: 70px;
-    font-family: 'Roboto-Medium', sans-serif;
 }
 
 .since:hover {
@@ -157,18 +98,17 @@ body {
 
 .who {
     font-size: 25px;
-    color: #68BB1D;
-    padding-top: 20px;
-    font-family: 'Roboto-Medium', sans-serif;
+    color: white;
+    margin-left: 20px;
 }
 
 .who:hover {
     cursor: pointer;
-    font-size: 30px;
+    
 }
 
 .overtextbox {
-    height: 100px;
+    height: 120px;
     /* background-color:aqua;  */
     display: flex;
     flex-direction: row;
@@ -180,25 +120,22 @@ body {
     font-weight: 700;
     width: 700px;
     color: white;
-    font-family: 'Roboto-Bold', sans-serif;
-
 }
 
 .aboutbtn {
-    height: 50px;
-    width: 170px;
+    height: 35px;
+    width: 150px;
     /* background-color: aliceblue; */
     text-align: center;
     justify-content: center;
     border-radius: 40px;
-    line-height: 50px;
+    /* line-height: 50px; */
     border: 1px solid #68BB1D;
     color: #68BB1D;
-    margin-left: 300px;
+    margin-left: 270px;
     font-size: 18px;
     /* font-weight: 500; */
-    margin-top: 50px;
-    font-family: 'Roboto-Bold', sans-serif;
+    margin-top: 20px;
 }
 
 .aboutbtn:hover {
@@ -210,12 +147,13 @@ body {
 .arrow {
     height: 10px;
     width: 30px;
-    margin-left: 8px;
-
+    margin-left: -5px;
+    /* padding-top: 10px; */
+margin-bottom: -10px;
 }
 
 .team {
-    height: 450px;
+    height: 350px;
     /* background-color: aqua; */
     margin-top: 100px;
     display: flex;
@@ -226,28 +164,25 @@ body {
     /* background-color: antiquewhite; */
     width: 650px;
     height: 400px;
-    line-height: 40px;
-
+    line-height: 30px;
 }
 
 .minitext {
     font-size: 18px;
     color: white;
-    margin: 15px;
-    font-family: 'Roboto-Medium', sans-serif;
+    /* margin: 15px; */
 }
 
 .teamimg {
-    height: 250px;
-    width: 300px;
+    height: 270px;
+    width: 330px;
     /* background-color: #282c34; */
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .workman {
-    height: 250px;
-    width: 300px;
-
+    height: 270px;
+    width: 330px;
 }
 
 .workman:hover {
@@ -255,10 +190,14 @@ body {
 }
 
 .graybox {
-    height: 580px;
+    height: 620px;
     background-color: hsl(0, 1%, 23%);
-    margin-top: 50px;
-
+    /* margin-top: 50px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    /* margin-bottom: 40px; */
+    border-radius: 6px;
 }
 
 .ourteam {
@@ -267,6 +206,7 @@ body {
     font-weight: 600;
     /* padding-top: 40px; */
     color: white;
+    margin-top: 40px;
 }
 
 .wedo {
@@ -278,12 +218,13 @@ body {
 }
 
 .bigtextbox {
-    height: 280px;
-    width: 600px;
-    /* background-color: aliceblue;   */
-    margin-left: 300px;
+    /* height: 280px;
+    width: 600px; */
+    /* background-color: red;   */
+    margin-top: 20px;
     flex-direction: row;
     display: flex;
+    justify-content: center;
 }
 
 .bigtextbox:hover {
@@ -292,23 +233,21 @@ body {
 
 .box1 {
     /* background-color: #282c34; */
-    height: 270px;
+    height: 300px;
     width: 350px;
     border-right: 2px solid #68BB1D;
-
 }
 
 .bigtext {
     font-size: 130px;
     font-weight: 600;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     color: #68BB1D;
-
 }
 
 .product {
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
     color: white;
 }
@@ -316,43 +255,43 @@ body {
 .box2 {
     /* background-color: rgb(255, 154, 21); */
     height: 270px;
-    width: 220px;
+    /* width: 220px; */
+    padding-left: 30px;
 }
 
 .tharity {
-    /* margin-top: 10px; */
-    font-size: 70px;
+  
+    font-size: 60px;
     font-weight: 600;
     text-align: center;
     color: #68BB1D;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 .creative {
-    font-size: 14px;
+    font-size: 20px;
     color: white;
-    /* margin-left: 30px; */
-
+ 
 }
 
 .webelive {
     font-size: 18px;
-    padding-top: 30px;
     color: white;
     margin-right: 200px;
-
+    background-color: transparent;
 }
 
 .ourservice {
     font-size: 30px;
-    color: #68BB1D;
-    padding-top: 50px;
+    color: white;
+    /* padding-top: 50px; */
+    background-color: transparent;
 }
 
 .details {
-    height: 600px;
+    height: 470px;
     /* background-color: pink; */
-    /* padding-bottom: 30px; */
+   
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -372,13 +311,13 @@ body {
     background-color: #1D1D1D;
     margin-left: 100px;
     border-radius: 20px;
-    padding: 20px;
+    /* padding: 20px; */
     color: white;
 }
 
 .uitext:hover {
     cursor: pointer;
-    background-color: #68BB1D;
+    /* background-color: #68BB1D; */
 
 }
 
@@ -387,12 +326,12 @@ body {
     /* width: 270px; */
     /* background-color:#68BB1D; */
     border-radius: 20px;
-    padding-top: 15px;
+    /* padding-top: 10px; */
     padding-left: 10px;
     display: flex;
     flex-direction: row;
     border: 2px solid white;
-    margin-top: 30px;
+    margin-top: 15px;
 
 }
 
@@ -418,9 +357,7 @@ body {
 
 .uiux {
     font-size: 40px;
-    font-weight: 600;
     margin-left: 30px;
-    padding: 20px;
 }
 
 .lorem {
@@ -433,23 +370,19 @@ body {
     font-size: 55px;
     text-align: center;
     color: white;
-    font-weight: 600;
-
 }
 
 .tech {
     font-size: 30px;
-    /* font-weight: 600; */
-    color: #68BB1D;
+    color: white;
     text-align: center;
-    padding-top: 30px;
 }
 
 .project {
     height: 150px;
     width: 850px;
     /* background-color: rgb(88, 13, 228); */
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: 200px;
     display: flex;
     flex-direction: row;
@@ -481,17 +414,17 @@ body {
     font-size: 45px;
     font-weight: 600;
     text-align: center;
-    color: #68BB1D;
-    margin-top: 30px;
+    color: white;
+    margin-top: 20px;
 
 }
 
 .twopick {
-    height: 490px;
+    height: 550px;
     /* background-color: aliceblue; */
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: -10px;
     color: white;
 
@@ -594,9 +527,7 @@ body {
 
 
 
-/* .box3{
-    height: 100px;
-} */
+ 
 
 
 @media only screen and (max-width: 768px) {

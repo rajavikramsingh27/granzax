@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Styles from '../css/Footer.module.css'
+import { ImageStyle } from '../utils/controller/ImageStyle';
 
 export default class Footer extends Component {
       render() {
@@ -14,7 +15,7 @@ export default class Footer extends Component {
                                     <div className={Styles.footerminitext}>How we work</div>
                                     <div className={Styles.footerminitext}>Careers </div>
                                     <div className={Styles.footerminitext}> About </div>
-                                    
+
                               </div>
                               <div className={Styles.footertitle}>
                                     <div className={Styles.footertext}>SERVICES</div>
@@ -52,7 +53,10 @@ export default class Footer extends Component {
 
                         <div className={Styles.footerline}>
                               <div className={Styles.copyright}>Copyright ©2020 - 2022. All rights reserved.</div>
-                              <div className={Styles.ftily}> GranzaX Team LLP</div>
+                              <div className={Styles.logo_Name}>
+                                    <img className={Styles.logo} src={ImageStyle.GranzaXLogoTransparent} />
+                                    <div className={Styles.ftily}> GranzaX Team LLP</div>
+                              </div>
                         </div>
                   </div>
             );

@@ -1,102 +1,114 @@
-*{
+* {
     font-family: 'Palatino';
-    /* padding: 16px; */
-    padding-top: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
+ padding: 12px;
 }
-.servicetext{
+
+.servicetext {
     color: white;
     font-size: 90px;
-    font-family: 'Roboto-Bold', sans-serif;
     font-weight: 700;
     margin-top: 50px;
 }
-.servicetext:hover{
+
+.servicetext:hover {
     cursor: pointer;
 }
-.webuild{
+
+.webuild {
     font-size: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
-    color:#68BB1D; 
+    color: white;
     padding-top: 30px;
 }
-.what{
+
+.what {
     font-size: 50px;
     color: white;
     text-align: center;
     margin-top: 40px;
 }
-.minititle{
+
+.minititle {
     font-size: 18px;
     color: white;
     text-align: center;
 }
-.servicetitlebox{
+
+.servicetitlebox {
     height: 450px;
     background-color: #1D1D1D;
     margin-top: 100px;
     border-radius: 30px;
     /* padding-left: 50px; */
 }
-.servicetitle{
+
+.servicetitle {
     font-size: 40px;
     color: white;
 }
-.servicetitle:hover{
-    color: #68BB1D;
+
+.servicetitle:hover {
+    /* color: #68BB1D; */
     cursor: pointer;
 }
-.detailsbox{
+
+.detailsbox {
     height: 350px;
     /* background-color: aqua; */
     display: flex;
     flex-direction: row;
     margin-top: 30px;
 }
-.details{
+
+.details {
     width: 360px;
     height: 350px;
     /* background-color: antiquewhite; */
     margin-left: 10px;
 }
-.text{
+
+.text {
     display: flex;
     flex-direction: row;
-   
-   
+
+
 }
-.text:hover{
+
+.text:hover {
     cursor: pointer;
 
 }
-.arrow{
+
+.arrow {
     height: 15px;
-width: 28px;
+    width: 28px;
 }
-.inter{
+
+.inter {
     font-size: 15px;
     color: white;
     margin-top: -10px;
     margin-left: -10px;
 }
-.inter:hover{
+
+.inter:hover {
     color: #68BB1D;
     cursor: pointer;
 }
 
 .aboutbtn {
-    height: 50px;
+    height: 35px;
     width: 150px;
+    /* background-color: aliceblue; */
     text-align: center;
     justify-content: center;
     border-radius: 40px;
-    line-height: 40px;
+    /* line-height: 50px; */
     border: 1px solid #68BB1D;
     color: #68BB1D;
+    margin-left: 100px;
     font-size: 18px;
-   margin-left: 80px;
-    margin-top: 70px;
+    /* font-weight: 500; */
+    margin-top: 20px;
 }
 
 .aboutbtn:hover {
@@ -108,20 +120,26 @@ width: 28px;
 .arrow {
     height: 10px;
     width: 30px;
+    margin-left: -5px;
+    /* padding-top: 10px; */
+margin-bottom: -10px;
 }
-.designicon{
+
+.designicon {
     height: 80px;
     width: 62px;
     margin-left: 170px;
     margin-top: 20px;
 }
-.mobileicon{
+
+.mobileicon {
     height: 80px;
     width: 50px;
     margin-left: 170px;
     margin-top: 20px;
 }
-.game{
+
+.game {
     height: 60px;
     width: 60px;
     margin-left: 170px;

@@ -3,6 +3,7 @@
 import React, { Component } from 'react'
 import Styles from '../css/Header.module.css'
 import { NavLink } from 'react-router-dom';
+import { ImageStyle } from '../utils/controller/ImageStyle';
 
 export default class Header extends Component {
 
@@ -18,7 +19,7 @@ export default class Header extends Component {
   componentDidMount() {
     const handler = e => {
       this.setState({ isSmall: e.matches })
-      this.setState({isMenu: false})
+      this.setState({ isMenu: false })
     };
     window.matchMedia("(max-width: 900px)").addEventListener('change', handler);
   }
@@ -38,7 +39,9 @@ export default class Header extends Component {
   render() {
     return (
       <div className={Styles.header}>
-        <div className={Styles.logo}>LOGO</div>
+        {/* <div className={Styles.logo}>LOGO</div> */}
+        <img  className={ Styles.logo} src={ImageStyle.GranzaXLogo}/>
+        {/* <img  className={ Styles.logo} src={ImageStyle.GranzaXLogoTransparent}/> */}
         <div className={Styles.menuBox} >
           {
             this.state.isSmall
@@ -49,9 +52,9 @@ export default class Header extends Component {
                       isMenu: !this.state.isMenu
                     })
                   }}>Menu</div>
-                  {
-                    this.state.isMenu ? this.menuOption() : <div></div>
-                  }
+                {
+                  this.state.isMenu ? this.menuOption() : <div></div>
+                }
               </div> : this.menuOption()
           }
         </div>

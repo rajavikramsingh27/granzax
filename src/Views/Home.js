@@ -1,17 +1,28 @@
 import React, { Component } from 'react'
 import Styles from '../css/Home.module.css'
 import { ImageStyle } from '../utils/controller/ImageStyle';
-
 import Header from '../utils/Header'
 import Footer from '../utils/Footer'
 
 
 export default class Home extends Component {
 
+  // const arrTechnologyIcon = [];
+
+
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      arrTechnologyIcon: [ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon, ImageStyle.firebase, ImageStyle.docker, ImageStyle.kuber],
+      arrTechnologyTitle: ['Flutter', 'Going', 'React', 'Firebase', 'Docker ', 'Kubernetes ']
+    }
+  }
+
   render() {
     return (
       <div className={Styles.body}>
-        <Header/>
+        <Header />
         <div className={Styles.titlebox}>
           <div className={Styles.textbox}>
             <div className={Styles.connecting}>Connecting dots from</div>
@@ -98,34 +109,17 @@ export default class Home extends Component {
           </div>
           <div className={Styles.trand}>Trending</div>
           <div className={Styles.tech}>Technologies</div>
+
           <div className={Styles.project}>
             <div className={Styles.pickicon} >
               <img className={Styles.projecticon} src={ImageStyle.flutter} />
               <div className={Styles.projectname}>Flutter</div>
             </div>
-            <div className={Styles.pickicon}>
-              <img className={Styles.projecticon} src={ImageStyle.gologo} />
-              <div className={Styles.projectname}>Going </div>
-            </div>
-
-            <div className={Styles.pickicon}>
-              <img className={Styles.projecticon} src={ImageStyle.Reacticon} />
-              <div className={Styles.projectname}>React</div>
-            </div>
-            <div className={Styles.pickicon}>
-              <img c className={Styles.projecticon} src={ImageStyle.firebase} />
-              <div className={Styles.projectname}>Firebase</div>
-            </div>
-            <div className={Styles.pickicon}>
-              <img className={Styles.projecticon} src={ImageStyle.docker} />
-              <div className={Styles.projectname}>Docker</div>
-            </div>
-            <div className={Styles.pickicon}>
-              <img className={Styles.projecticon} src={ImageStyle.kuber} />
-              <div className={Styles.projectname}>Kubernetes</div>
-            </div>
-
+            
           </div>
+
+
+
           <div className={Styles.recentilywork}>Our Work done recently </div>
 
 

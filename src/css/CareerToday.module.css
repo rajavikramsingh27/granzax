@@ -1,0 +1,115 @@
+*{
+    font-family: 'Palatino';
+    /* padding: 16px; */
+}
+.title{
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+
+}
+.title:hover{
+    cursor: pointer;
+}
+.title2{
+    color: white;
+    font-size: 60px;
+  margin-top: -20px;
+
+}
+.title2:hover{
+    cursor: pointer;
+}
+.subtitle{
+    font-size: 20px;
+    color: white;
+
+}
+.box{
+    height: 280px;
+    background-color: #1D1D1D;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 40px;
+
+}
+.box1{
+    height: 260px;
+    /* background-color: red; */
+    width: 450px;
+    margin-left: 40px;
+}
+.box1:hover{
+    cursor: pointer;
+}
+.box2{
+    height: 240px;
+    /* background-color: red; */
+    width: 400px;
+    margin-left: 20px;
+   
+
+}
+.box2:hover{
+    cursor: pointer;
+}
+.got{
+    width: 250px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    color: white;
+}
+.letus{
+    font-size: 18px;
+    /* width: 330px; */
+    margin-top: -10px;
+    color: white;
+}
+.namebox{
+    height: 80px;
+    margin-top: 30px;
+}
+.name{
+    font-size: 20px;
+    color:#68BB1D ;
+    line-height: 10px;
+}
+.post{
+    font-size: 14px;
+    color: white;
+}
+.photo{
+    height: 100px;
+    width: 100px;
+    margin-top: 130px ;
+}
+.photo:hover{
+    cursor: pointer;
+}
+.contectbox{
+    height: 200px;
+    background-color: #1D1D1D;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    border: 1px solid #68BB1D;
+    border-radius: 40px;
+    margin-bottom: 100px;
+}
+.contact{
+    font-size: 35px;
+    font-weight: 600;
+   padding-top: 40px;
+    color: white;
+}
+.icon{
+    height: 75px;
+    width: 60px;
+    margin-top: 70px ;
+}
+.icon:hover{
+    cursor: pointer;
+}

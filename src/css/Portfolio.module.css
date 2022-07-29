@@ -1,0 +1,119 @@
+*{
+    font-family: 'Palatino';
+    /* padding: 16px; */
+}
+.title{
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+
+}
+.title:hover{
+    cursor: pointer;
+}
+.wehave{
+    font-size: 20px;
+    color: white;
+  
+}
+.buttenbox{
+    height: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.butten{
+    background-color:#1D1D1D  ;
+    width:90px ;
+    margin-left: 90px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+}
+.butten:hover{
+    background-color:#68BB1D ;
+    cursor: pointer;
+}
+.appbox{
+    height: 400px;
+    background-color:  #1D1D1D;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+   
+}
+.apptext{
+    width: 650px;
+    /* background-color: aqua; */
+}
+.appimg{
+    width: 450px;
+    height: 300px;
+    /* background-color: red; */
+}
+.app{
+    color: white;
+    font-size: 45px;
+}
+.app:hover{
+    cursor: pointer;
+    color: #68BB1D;
+}
+.lorem{
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+}
+.appphoto{
+    width: 470px;
+    height: 320px;
+   margin-top: 20px;
+}
+.appphoto:hover{
+    cursor: pointer;
+}
+.icon{
+    /* background-color: aqua; */
+    height: 30px;
+    width: 150px;
+    margin-left: 20px;
+    display: flex; flex-direction: row;
+}
+.appicon{
+    height: 20px;
+    width: 23px;
+    margin-bottom: 15px;
+}
+.appicon:hover{
+    cursor: pointer;
+}
+.appbtn{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    width: 170px;
+    border-radius: 20px;
+    border: 2px solid #68BB1D;
+    text-align: center;
+    align-items: center;
+   padding-left: 20px;
+   color: #68BB1D;
+   margin: 15px;
+
+}
+.appbtn:hover{
+    background-color: #68BB1D;
+    color: black;
+    cursor: pointer;
+}
+.arrow{
+    width: 25px;
+    margin-left: -6px;
+    margin-top: 6px;
+}
+.footertop{
+    height: 100px;
+}

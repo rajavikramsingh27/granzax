@@ -1,0 +1,133 @@
+*{
+    font-family: 'Palatino';
+    /* padding: 16px; */
+}
+.mobiletext {
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.title{
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.what{
+    font-size: 22px;
+    color: white;
+    padding-top: 50px;
+
+}
+.subtitle{
+    font-size: 26px;
+    color: white;
+    padding-right: 450px;
+    font-weight: 500;
+
+}
+.trusted{
+    font-size: 35px;
+    color: white;
+    width: 600px;
+    line-height: 60px;
+    margin-top: 40px;
+}
+.minitextbox {
+    height: 350px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textbox1 {
+    height: 300px;
+    width: 400px;
+    /* background-color: #1D1D1D; */
+    border-radius: 30px;
+}
+
+.textbox1:hover {
+    cursor: pointer;
+}
+
+.textbox2 {
+    height: 300px;
+    width: 400px;
+    /* background-color: #1D1D1D; */
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+.textbox2:hover {
+    cursor: pointer;
+}
+
+
+.mobile {
+    color: white;
+    width: 360px;
+    line-height: 32px;
+    margin-left: 20px;
+    
+}
+.subtitle2{
+    font-size: 35px;
+    color: white;
+    padding-right: 450px;
+    font-weight: 600;
+   word-spacing: 10px;
+   
+}
+.textbox3 {   
+     height: 290px;
+
+    width: 400px;
+    height: 280px;
+    background-color: #1D1D1D;
+    border-radius: 30px;
+}
+
+.textbox3:hover {
+    cursor: pointer;
+}
+.boxtitle {
+   
+    width: 300px;
+    font-size: 30px;
+    margin-left: 20px;
+    color: #68BB1D;
+    /* line-height: 45px; */
+}
+
+.textbox4 {
+    height: 290px;
+    width: 400px;
+    background-color: #1D1D1D;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+.textbox4:hover {
+    cursor: pointer;
+}
+.endtext{
+    font-size: 35px;
+    color: white;
+    width: 750px;
+    font-weight: 600;
+}
+.wehave{
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    padding-right: 120px;
+}
+.apptype{
+    color: #68BB1D;
+    font-size: 20px;
+    font-weight: 600;
+}

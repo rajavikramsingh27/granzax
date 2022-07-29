@@ -26,7 +26,7 @@
 *{
     font-family: 'Palatino';
     /* background-color: #282c34; */
-    padding: 12px;
+    /* padding: 12px; */
 }
 
 body {
@@ -67,11 +67,6 @@ body {
     line-height: 80px;
     font-weight: 700;
 }
-
-.connecting:hover {
-    cursor: pointer;
-}
-
 .design {
     font-size: 55px;
     /* font-weight:500; */
@@ -79,40 +74,24 @@ body {
     color: white;
     font-weight: 700;
 }
-
-.design:hover {
-    cursor: pointer;
-    /* color: #68BB1D; */
-  
-}
-
 .since {
     font-size: 40px;
     color: white;
     line-height: 70px;
 }
 
-.since:hover {
-    cursor: pointer;
-}
-
 .who {
     font-size: 25px;
     color: white;
-    margin-left: 20px;
-}
-
-.who:hover {
-    cursor: pointer;
-    
 }
 
 .overtextbox {
-    height: 120px;
+    height: auto;
     /* background-color:aqua;  */
     display: flex;
     flex-direction: row;
     margin-top: 40px;
+   
 }
 
 .ourtext {
@@ -123,19 +102,22 @@ body {
 }
 
 .aboutbtn {
-    height: 35px;
-    width: 150px;
+    height: 50px;
+    width: 200px;
     /* background-color: aliceblue; */
-    text-align: center;
-    justify-content: center;
     border-radius: 40px;
-    /* line-height: 50px; */
     border: 1px solid #68BB1D;
     color: #68BB1D;
-    margin-left: 270px;
-    font-size: 18px;
-    /* font-weight: 500; */
-    margin-top: 20px;
+    margin: 20px 20px 0px auto;
+ 
+ 
+}
+.btntext{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 50px;
+
 }
 
 .aboutbtn:hover {
@@ -147,13 +129,16 @@ body {
 .arrow {
     height: 10px;
     width: 30px;
-    margin-left: -5px;
-    /* padding-top: 10px; */
-margin-bottom: -10px;
+    margin: 0px 0px -3px 10px;
+
+}
+.arrow:hover{
+    background-color: black;
+    color: black;
 }
 
 .team {
-    height: 350px;
+    height: auto;
     /* background-color: aqua; */
     margin-top: 100px;
     display: flex;
@@ -162,8 +147,8 @@ margin-bottom: -10px;
 
 .teamtext {
     /* background-color: antiquewhite; */
-    width: 650px;
-    height: 400px;
+    width: 700px;
+    height: auto;
     line-height: 30px;
 }
 
@@ -177,20 +162,14 @@ margin-bottom: -10px;
     height: 270px;
     width: 330px;
     /* background-color: #282c34; */
-    margin-left: 150px;
+    margin: 5px  auto;
 }
 
 .workman {
     height: 270px;
     width: 330px;
 }
-
-.workman:hover {
-    cursor: pointer;
-}
-
 .graybox {
-    height: 620px;
     background-color: hsl(0, 1%, 23%);
     /* margin-top: 50px; */
     padding-left: 20px;
@@ -214,7 +193,6 @@ margin-bottom: -10px;
     text-align: center;
     /* margin: 60px; */
     color: white;
-
 }
 
 .bigtextbox {
@@ -225,10 +203,6 @@ margin-bottom: -10px;
     flex-direction: row;
     display: flex;
     justify-content: center;
-}
-
-.bigtextbox:hover {
-    cursor: pointer;
 }
 
 .box1 {
@@ -242,7 +216,7 @@ margin-bottom: -10px;
     font-size: 130px;
     font-weight: 600;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 18px;
     color: #68BB1D;
 }
 
@@ -289,9 +263,9 @@ margin-bottom: -10px;
 }
 
 .details {
-    height: 470px;
+    /* height: 470px; */
     /* background-color: pink; */
-   
+   margin: auto;
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -299,35 +273,28 @@ margin-bottom: -10px;
 }
 
 .minibox {
-    height: 450px;
+    /* height: 450px; */
     /* background-color: antiquewhite; */
-    width: 270px;
+    /* width: 270px; */
     margin-left: 100px;
 }
 
 .uitext {
-    height: 430px;
+    /* height: auto; */
     width: 550px;
     background-color: #1D1D1D;
-    margin-left: 100px;
+    margin: auto auto auto 40px;
     border-radius: 20px;
     /* padding: 20px; */
     color: white;
 }
-
-.uitext:hover {
-    cursor: pointer;
-    /* background-color: #68BB1D; */
-
-}
-
 .radiousminibox {
     height: 60px;
     /* width: 270px; */
     /* background-color:#68BB1D; */
     border-radius: 20px;
-    /* padding-top: 10px; */
-    padding-left: 10px;
+    padding-top: 10px;
+    /* padding: 10px ; */
     display: flex;
     flex-direction: row;
     border: 2px solid white;
@@ -349,10 +316,10 @@ margin-bottom: -10px;
 
 .icontext {
     font-size: 16px;
-    width: 130px;
-    padding: 15px;
+   
+    text-align: center;
     color: white;
-    margin-top: -10px;
+    margin: 5px 20px 0px 5px;
 }
 
 .uiux {
@@ -399,11 +366,6 @@ margin-bottom: -10px;
     align-items: center;
     /* display: list-item; */
 }
-
-.pickicon:hover {
-    cursor: pointer;
-}
-
 .projectname {
     /* text-align: center; */
     color: white;
@@ -452,7 +414,6 @@ margin-bottom: -10px;
 
 .Abc {
     font-size: 35px;
-  
     font-weight: 700;
     margin-top: 10px;
 

@@ -1,6 +1,6 @@
 * {
     font-family: 'Palatino';
- padding: 12px;
+ /* padding: 12px; */
 }
 
 .abouttext {
@@ -9,11 +9,6 @@
     font-weight: 700;
     margin-top: 50px;
 }
-
-.abouttext:hover {
-    cursor: pointer;
-}
-
 .transforming {
     font-size: 30px;
     color: white;
@@ -21,51 +16,36 @@
 }
 
 .wtextbox {
-    height: 300px;
+    /* height: 300px; */
     /* background-color: antiquewhite; */
-    margin-top: 50px;
+    margin: 50px;
     display: flex;
     flex-direction: row;
 }
 
 .wtext1 {
-    width: 560px;
+    /* width: 560px; */
     /* background-color: aqua; */
     border-right: 3px solid #68BB1D;
 }
-
-.wtext1:hover {
-    cursor: pointer;
-}
-
 .wtext2 {
-    width: 580px;
+    /* width: 580px; */
     /* background-color: red; */
     margin-left: 60px;
 
 }
-
-.wtext2:hover {
-    cursor: pointer;
-}
-
 .wholine {
     font-size: 35px;
     color: white;
 }
 
 .whominitext {
-    width: 450px;
     font-size: 14px;
     color: white;
     line-height: 30px;
     margin-top: 20px;
+    margin-right: 20px;
 }
-
-.whominitext:hover {
-    cursor: pointer;
-}
-
 .weare {
     font-size: 45px;
     color: white;
@@ -73,63 +53,53 @@
 }
 
 .radiousbox {
-    height: 400px;
+    /* height: 400px; */
     /* background-color: aqua; */
-    margin-top: 50px;
-    margin-left: 100px;
+    /* margin-top: 50px;
+    margin-left: 100px; */
+    /* margin: auto; */
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
 .radiousbox1 {
-    width: 400px;
+    width: 45%;
     background-color: #1D1D1D;
     border-radius: 30px;
+    padding-bottom: 30px;
 }
-
-.radiousbox1:hover {
-    cursor: pointer;
-}
-
 .radiousbox2 {
-    width: 400px;
+    width: 45%;
     background-color: #1D1D1D;
-    margin-left: 100px;
+    margin-left: auto;
     border-radius: 30px;
 }
-
-.radiousbox2:hover {
-    cursor: pointer;
-}
-
 .boxtitle {
-    width: 300px;
+    /* width: 300px; */
     font-size: 30px;
-    padding: 40px;
+    padding: 30px;
     color: #68BB1D;
     line-height: 45px;
 }
 
 .webelieve {
     color: white;
-    width: 360px;
     line-height: 35px;
     margin-left: 20px;
 }
 
 .satesfied {
-    /* background-color: #1D1D1D; */
-    height: 320px;
-    /* background-color: aqua; */
     margin-top: 20px;
-    margin-left: 100px;
+  
+    /* margin-left: 100px; */
     display: flex;
     flex-direction: row;
 
 }
 
 .radiousbox3 {
-    width: 300px;
+    /* width: 300px; */
     /* background-color: #1D1D1D; */
     border-radius: 30px;
     display: flex;
@@ -137,24 +107,13 @@
     color: white;
     font-size: 32px;
 }
-
-.radiousbox3:hover {
-    cursor: pointer;
-}
-
 .radiousbox4 {
-    width: 400px;
+    /* width: 500px; */
     /* background-color: #1D1D1D; */
-    margin-left: 100px;
-    border-radius: 30px;
+    margin: 10px  auto 0px  auto;
     color: white;
     line-height: 40px;
 }
-
-.radiousbox4:hover {
-    cursor: pointer;
-}
-
 .the {
     font-size: 40px;
     text-align: center;
@@ -163,41 +122,36 @@
 }
 
 .threebox {
-    height: 480px;
+    /* height: 480px; */
     /* background-color: #1D1D1D; */
     margin: 50px;
 }
 
 .threebg {
-    height: 130px;
-    /* background-color: aliceblue; */
+    justify-content: center;
     display: flex;
     flex-direction: row;
 }
 
 .three {
-    width: 270px;
-    height: 100px;
-    /* background-color: #1D1D1D; */
     margin-left: 30px;
     border-radius: 20px;
     border: 2px solid #68BB1D;
     color: white;
-    /* align-items: center; */
     justify-content: center;
+    padding:20px;
+    margin: 10px;
 
 }
 
 .three:hover {
     background-color: #68BB1D;
-    cursor: pointer;
     color: black;
 }
 
 .threetext {
-    width: 150px;
     font-size: 20px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .threetextmindful {
@@ -206,19 +160,15 @@
 }
 
 .threebest {
-    width: 270px;
-    height: 100px;
-    /* background-color: #353232; */
-    margin-left: 220px;
+    padding: 20px;
     border-radius: 20px;
     border: 2px solid #68BB1D;
     color: white;
-    /* text-align: center; */
+   
 }
 
 .threebest:hover {
     background-color: #68BB1D;
-    cursor: pointer;
     color: black;
 }
 
@@ -241,19 +191,20 @@
 }
 
 .aboutbtn {
-    height: 35px;
-    width: 150px;
+    height: 50px;
+    width: 200px;
     /* background-color: aliceblue; */
-    text-align: center;
-    justify-content: center;
     border-radius: 40px;
-    /* line-height: 50px; */
     border: 1px solid #68BB1D;
     color: #68BB1D;
-    margin-left: 500px;
-    font-size: 18px;
-    /* font-weight: 500; */
-    margin-top: 20px;
+    margin: 20px 20px 0px auto;
+ 
+}
+.btntext{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 50px;
 }
 
 .aboutbtn:hover {
@@ -266,15 +217,13 @@
 .arrow {
     height: 10px;
     width: 30px;
-    margin-left: -5px;
-    /* padding-top: 10px; */
-margin-bottom: -10px;
+    margin: 0px 0px -3px 10px;
 
 }
 
 .wealways {
-    margin-right: 420px;
+    /* margin-right: 420px; */
     color: white;
     line-height: 35px;
-    margin-bottom: 50px;
+   margin: 0px auto 50px auto;
 }

@@ -34,13 +34,16 @@ export default class Home extends Component {
           </div>
 
         </div>
-        <div className={Styles.who}>WHO WE ARE</div>
+        <div className={Styles.who}>
+          WHO WE ARE
+        </div>
 
         <div className={Styles.overtextbox} >
           <div className={Styles.ourtext}>Our mission is to innovate, transform, & deliver</div>
-          <div className={Styles.aboutbtn}>About
+          <div className={Styles.aboutbtn}>
+            <div className={Styles.btntext}>About
 
-            <img className={Styles.arrow} src={ImageStyle.arrowright} />
+            <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
           </div>
         </div>
         <div className={Styles.team}>
@@ -74,10 +77,16 @@ export default class Home extends Component {
           </div>
           <div className={Styles.overtextbox}>
             <div className={Styles.ourtext}>What can we do for you?</div>
-            <div className={Styles.aboutbtn}>All Services
+            <div className={Styles.aboutbtn}>
+            <div className={Styles.btntext}>All Services
 
-              <img className={Styles.arrow} src={ImageStyle.arrowright} />
-            </div>
+            <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
+          </div>
+            {/* <div className={Styles.aboutbtn}>
+              <div className={Styles.btntext}>All Services
+
+              <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
+            </div> */}
           </div>
           <div className={Styles.webelive}>We believe that our strength lies in the comprehensive services we provide to our clients. From full-stack development to just consultancy, we deliver exactly what you demand.</div>
           <div className={Styles.ourservice}>Our Services</div>
@@ -149,8 +158,6 @@ export default class Home extends Component {
               <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
             </div>
           </div>
-
-
           <div className={Styles.twopick}>
             <div className={Styles.pick1}>
               <img className={Styles.desplay} src={ImageStyle.mobile5} />
@@ -163,8 +170,8 @@ export default class Home extends Component {
               <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
             </div>
           </div>
-          <Footer />
         </div>
+        <Footer />
       </div>
     )
   }

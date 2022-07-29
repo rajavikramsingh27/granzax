@@ -66,9 +66,11 @@ export default class Services extends Component {
               </div>
             </div>
              <div className={Styles.details}>
-             <div className={Styles.aboutbtn}>Explore
+
+             <div className={Styles.aboutbtn}>
+              <div className={Styles.btntext}>Explore
         
-        <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+        <img  className={ Styles.arrow2} src={ImageStyle.arrowright}/></div>
       </div>
       <img className={Styles.designicon}  src={ImageStyle.greenicon} />
              </div>
@@ -118,9 +120,10 @@ export default class Services extends Component {
              
           </div>
           <div className={Styles.details}>
-          <div className={Styles.aboutbtn}>Explore
+          <div className={Styles.aboutbtn}>
+            <div className={Styles.btntext}>Explore
         
-        <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+        <img  className={ Styles.arrow2} src={ImageStyle.arrowright}/></div>
       </div>
       <img className={Styles.mobileicon}  src={ImageStyle.greenmob} />
              </div>
@@ -179,9 +182,10 @@ export default class Services extends Component {
              
           </div>
           <div className={Styles.details}>
-          <div className={Styles.aboutbtn}>Explore
+          <div className={Styles.aboutbtn}>
+            <div className={Styles.btntext}>Explore
         
-        <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+        <img  className={ Styles.arrow2} src={ImageStyle.arrowright}/></div>
       </div>
       <img className={Styles.game}  src={ImageStyle.game2} />
              </div>
@@ -233,9 +237,10 @@ export default class Services extends Component {
              
           </div>
           <div className={Styles.details}>
-          <div className={Styles.aboutbtn}>Explore
+          <div className={Styles.aboutbtn}>
+            <div className={Styles.btntext}>Explore
         
-        <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+        <img  className={ Styles.arrow2} src={ImageStyle.arrowright}/></div>
       </div>
       <img className={Styles.game}  src={ImageStyle.web} />
              </div>

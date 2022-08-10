@@ -1,0 +1,56 @@
+.List{
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+}
+.file{
+    display: flex;
+    margin: auto;
+    background-color: red;
+    height: 100px;
+    width: 400px;
+}
+.pickicon {
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin: auto;
+    /* display: list-item; */
+}
+.projecticon {
+    height: 70px;
+    width: 70px;
+}
+.projectname {
+    /* text-align: center; */
+    color: white;
+    padding-top: 20px;
+}
+
+
+/*   
+const image = [ImageStyle.flutter,ImageStyle. Reacticon, ImageStyle.gologo]
+
+          {
+            image.map(image =><img className={Styles.projecticon} src={image} />
+              )
+          }
+
+*/
+
+
+/* const names = ["Flutter", 'Goiang', 'React','Firebase','Docker','Kubernetes'];
+const image = [ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon,ImageStyle.firebase,ImageStyle.docker,ImageStyle.kuber ] */
+
+/* <Header />
+<div className={Styles.List}>
+  {
+    image.map((data, index) =>
+      <div className={Styles.pickicon}>
+        <img className={Styles.projecticon} src={image[index]} />
+        <div className={Styles.projectname}>{names[index]}</div>
+      </div>
+    )
+  }
+</div>
+<Footer /> */

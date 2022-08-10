@@ -79,8 +79,9 @@ export default class About extends Component {
   
           </div>
           <div className={Styles.threebg}>
-            <div className={Styles.threebest}>
-              <div className={Styles.threetext}> Best Opportunities</div>
+           
+            <div className={Styles.three}>
+              <div className={Styles.threetextmindful}>Best Opportunities </div>
             </div>
             <div className={Styles.three}>
               <div className={Styles.threetextmindful}>Work with Latest Technology  </div>
@@ -91,9 +92,10 @@ export default class About extends Component {
   
         <div className={Styles.wanttextbox} >
           <div className={Styles.wanttext}>Want to Join Our Team</div>
-          <div className={Styles.aboutbtn}>About
+          <div className={Styles.aboutbtn}>
+            <div className={Styles.btntext}>About
   
-            <img className={Styles.arrow} src={ImageStyle.arrowright} />
+            <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
           </div>
         </div>
         <div className={Styles.wealways}  >We are always looking for either talented professionals or individuals with a flair for our industry to join our team. Whether you are a coding ninja or scheduling guru there is a likely a place for you in our ever expanding company.</div>

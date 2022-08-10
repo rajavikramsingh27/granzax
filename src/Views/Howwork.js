@@ -71,9 +71,9 @@ export default class Howwork extends Component {
         <div className={Styles.btn}>
           <div className={Styles.btntext}> Agile software development</div></div>
           <div className={Styles.btn}>
-            <div className={Styles.btntext2}>Delivering modules in sprints</div> </div>
+            <div className={Styles.btntext}>Delivering modules in sprints</div> </div>
            <div className={Styles.btn}>
-            <div className={Styles.btntext2}>Fixing bugs, integrating feedback</div></div>
+            <div className={Styles.btntext}>Fixing bugs, integrating feedback</div></div>
              
         </div>
 
@@ -88,9 +88,9 @@ export default class Howwork extends Component {
         <div className={Styles.btn}>
           <div className={Styles.btntext}> Real-time utilization</div></div>
           <div className={Styles.btn}>
-            <div className={Styles.btntext2}> Systematic monitoring and evaluation</div> </div>
+            <div className={Styles.btntext}> Systematic monitoring and evaluation</div> </div>
            <div className={Styles.btn}>
-            <div className={Styles.btntext2}>Test-driven development (Optional)  </div></div>
+            <div className={Styles.btntext}>Test-driven development (Optional)  </div></div>
             <div className={Styles.btn}>
             <div className={Styles.btntext}>Bug eliminations  </div></div>
              
@@ -107,11 +107,11 @@ export default class Howwork extends Component {
         <div className={Styles.btn}>
           <div className={Styles.btntext}> Launching the app in app stores</div></div>
           <div className={Styles.btn}>
-            <div className={Styles.btntext2}> Final delivery of the product</div> </div>
+            <div className={Styles.btntext}> Final delivery of the product</div> </div>
            <div className={Styles.btn}>
             <div className={Styles.btntext}>Delivering source codes  </div></div>
             <div className={Styles.btn}>
-            <div className={Styles.btntext2}>Ensuring persistent quality  </div></div>
+            <div className={Styles.btntext}>Ensuring persistent quality  </div></div>
              
         </div>
 

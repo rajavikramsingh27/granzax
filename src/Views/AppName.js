@@ -13,6 +13,7 @@ export default class AppName extends Component {
         <div className={Styles.title}> App Name </div>
         <div className={Styles.subtitle}>Lorem ipsum dolor sit amet, consetetur sadipscing</div>
         <div className={Styles.btnbox}>
+          <div className={Styles.bgbtn}>
         <div className={Styles.btn}>
         <div className={Styles.btntitle}>Category </div> 
         <div className={Styles.btntext}>Lorem ipsum</div>
@@ -30,8 +31,9 @@ export default class AppName extends Component {
         <div className={Styles.btntext}>Lorem ipsum</div>
         </div>
         </div>
-        <div className={Styles.download}>Download Now</div>
-        <img className={Styles.apps} src={ImageStyle.googal} />
+        </div>
+        <div className={Styles.download}>Download Now
+        <img className={Styles.apps} src={ImageStyle.googal} /></div>
         <div className={Styles.box}>
           <div className={Styles.boxtitle}>Project Details</div>
           <div className={Styles.lorem}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -62,6 +64,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
         <div  className={Styles.detailslorem}>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</div>
           </div>
           </div>
+          
           <div className={Styles.contactbtn}>Contact us
           <img className={Styles.arrow} src={ImageStyle.arrowright} />
 

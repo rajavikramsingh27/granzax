@@ -17,7 +17,7 @@
   
 }
 .buttenbox{
-    height: 50px;
+    /* height: 50px; */
     /* background-color: aqua; */
     display: flex;
     flex-direction: row;
@@ -27,65 +27,58 @@
 .butten{
     background-color:#1D1D1D  ;
     width:90px ;
-    margin-left: 90px;
+    margin: auto ;
     border-radius: 12px;
     text-align: center;
     color: white;
+    padding: 16px;
 }
 .butten:hover{
     background-color:#68BB1D ;
     cursor: pointer;
 }
 .appbox{
-    height: 400px;
+    /* height: 400px; */
     background-color:  #1D1D1D;
     margin-top: 80px;
     display: flex;
     flex-direction: row;
     border-radius: 30px;
-   
+   margin: 20px;
+ 
 }
 .apptext{
-    width: 650px;
+    width: 45%;
     /* background-color: aqua; */
+    padding: 10px;
 }
 .appimg{
-    width: 450px;
-    height: 300px;
-    /* background-color: red; */
+    margin: auto;
 }
 .app{
     color: white;
     font-size: 45px;
 }
-.app:hover{
-    cursor: pointer;
-    color: #68BB1D;
-}
+
 .lorem{
     color: white;
     font-size: 18px;
     line-height: 40px;
 }
 .appphoto{
-    width: 470px;
-    height: 320px;
-   margin-top: 20px;
+    width: 100%;
+    /* height: auto; */
 }
-.appphoto:hover{
-    cursor: pointer;
-}
+
 .icon{
     /* background-color: aqua; */
-    height: 30px;
-    width: 150px;
-    margin-left: 20px;
-    display: flex; flex-direction: row;
+    display: flex;
+     flex-direction: row;
 }
 .appicon{
-    height: 20px;
+    /* height: 20px; */
     width: 23px;
-    margin-bottom: 15px;
+    margin-left: 20px;
 }
 .appicon:hover{
     cursor: pointer;
@@ -93,15 +86,14 @@
 .appbtn{
     display: flex;
     flex-direction: row;
-    height: 35px;
     width: 170px;
     border-radius: 20px;
     border: 2px solid #68BB1D;
     text-align: center;
     align-items: center;
-   padding-left: 20px;
    color: #68BB1D;
-   margin: 15px;
+   margin: 10px;
+   padding: 10px;
 
 }
 .appbtn:hover{
@@ -111,7 +103,7 @@
 }
 .arrow{
     width: 25px;
-    margin-left: -6px;
+    margin-left: 6px;
     margin-top: 6px;
 }
 .footertop{

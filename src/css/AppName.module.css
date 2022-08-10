@@ -8,28 +8,36 @@
     margin-top: 100px;
 
 }
-.title:hover{
-    cursor: pointer;
-}
+
 .subtitle{
     font-size: 20px;
     color: white;
 }
 .btnbox{
-    height: 120px;
+    height: auto;
     /* background-color: aqua; */
     display: flex;
-    margin-top: 50px;
+    margin: 50px 10px;
+}
+.bgbtn{
+  width: 90%;
+  display: flex;
+  align-self: center;
+  margin: auto;
+ 
 }
 .btn{
     /* background-color: red; */
-    width: 170px;
-    height: 60px;
-    margin-left: 80px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
     border: 1px solid white;
     border-radius: 16px;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 .btn:hover{
     cursor: pointer;
@@ -38,27 +46,28 @@
 }
 .btntitle{
     font-size: 18px;
-    margin-top: -10px;
+    /* margin-top: -10px; */
 }
 .btntext{
     font-size: 13px;
-    margin-top: -23px;
 }
 .download{
     text-align: center;
     font-size: 25px;
     color: white;
+    display: grid;
 }
 .apps{
     height: 60px;
     width: 400px;
-    margin-left: 33%;
+    /* margin-left: 33%; */
+    margin: auto;
 }
 .apps:hover{
     cursor: pointer;
 }
 .box{
-    height: 330px;
+    height: auto;
     background-color: #1D1D1D;
     margin: 30px;
     border-radius: 30px ;
@@ -84,7 +93,7 @@
     font-size: 45px;
 }
 .text{
-    height: 150px;
+    height: auto;
     color: white;
     font-size: 21px;
     line-height: 40px;
@@ -95,20 +104,21 @@
     font-weight: 600;
 }
 .box2{
-    height: 400px;
+    height: auto;
+    width: 100%;
     /* background-color: aqua; */
     display: flex;
     flex-direction: row;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .photo{
-    width: 500px;
+    width: 50%;
+    margin: 12px;
 }
-.photo:hover{
-    cursor: pointer;
-}
+
 .phototext{
-    width: 600px;
+    width: 50%;
+    margin: 12px;
 }
 .photolorem{
     font-size: 17px;
@@ -116,22 +126,20 @@
     line-height: 35px;
 }
 .apppick{
-    margin-left: -10px;
+    width: 90%;
 }
 .box3{
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     flex-direction: row;
 }
 .details{
-    width: 40%;
+    width: 45%;
+    padding: 14px;
     background-color: #1D1D1D;
-    margin-left: 50px;
+    margin-left: 10px;
     border-radius: 40px;
 
-}
-.details:hover{
-    cursor: pointer;
 }
 .detailstitle{
     font-size: 35px;
@@ -142,14 +150,15 @@
     font-size: 16px;
     color: white;
     line-height: 35px;
+    justify-content: center;
 }
 .contactbtn{
-    height: 40px;
-    width: 140px;
+    height: auto;
+    width: 160px;
     border-radius: 30px;
     padding-left: 25px;
     line-height:40px ;
-    margin: 50px 0px 50px 43%;
+   margin: 40px auto;
      color: #68BB1D;
     border: 1px solid #68BB1D;
     display: flex;
@@ -157,9 +166,10 @@
    
 }
 .arrow{
-    width: 30px;
+    width: 27px;
     height: 15px;
-    margin-top: 3px;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 .contactbtn:hover{
     background-color: #68BB1D;

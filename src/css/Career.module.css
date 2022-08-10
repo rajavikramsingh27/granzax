@@ -8,17 +8,12 @@
     margin-top: 100px;
 
 }
-.title:hover{
-    cursor: pointer;
-}
+
 .title2{
     color: white;
     font-size: 60px;
   margin-top: -20px;
 
-}
-.title2:hover{
-    cursor: pointer;
 }
 .subtitle{
     font-size: 20px;
@@ -27,24 +22,34 @@
     margin-bottom: 100px;
 }
 .box{
-    height: 350px;
+    height: auto;
     /* background-color: aqua; */
     display: flex;
     flex-direction: row;
+    /* margin-bottom: 30px; */
   
 }
 .box1{
-    width: 40%;
-    height: 300px;
+    width: 45%;
+    height: auto;
     background-color: #1D1D1D;
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-top: auto;
     border-radius: 25px;
     color: white;
     border: 2px solid white;
-    padding: 20px;
+    padding: 30px;
 }
-.box1:hover{
-    cursor: pointer;
+.boxtwo{
+    width: 45%;
+    height: auto;
+    background-color: #1D1D1D;
+    margin-left: 10px;
+    margin-top: auto;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid white;
+    padding: 30px;
 }
 .confidence{
     font-size: 35px;
@@ -56,17 +61,19 @@
     line-height: 35px;
 }
 .box2{
-    height: 310px;
+    height: auto;
+    width: 100%;
     /* background-color: aqua; */
     display: flex;
     flex-direction: row;
-  
+    margin: auto;
 }
 .boxgreen{
     width: 40%;
-    height: 250px;
+    /* height: 250px; */
+    margin: 20px;
     background-color: #1D1D1D;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     border-radius: 25px;
     color: white;
     border: 2px solid #68BB1D;
@@ -76,8 +83,8 @@
     cursor: pointer;
 }
 .boxtitle{
-    font-size: 35px;
-    width: 350px;
+    font-size: 33px;
+    height: auto;
     font-weight: 600;
 }
 .roles{
@@ -93,20 +100,21 @@
     font-size: 17px;
 }
 .appbox{
-    height: 550px;
+    /* height: 550px; */
     /* background-color: aqua; */
-    margin: 70px;
+    margin: 20px;
     display: flex;
     flex-direction: row;
 
 }
 .appbox1{
     /* background-color: red; */
-    width: 33%;
-    height: 480px;
-    margin-left: 100px;
+    width: 100%;
+    /* height: 480px; */
+    margin-left: 10px;
     border: 1px solid #68BB1D;
     border-radius: 20px;
+    padding: 10px;
 }
 .appbox1:hover{
     cursor: pointer;
@@ -139,7 +147,8 @@
 .arrow{
     width: 30px;
     height: 15px;
-    margin-top: 3px;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 .appbtn:hover{
     background-color: #68BB1D;

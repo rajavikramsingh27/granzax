@@ -36,7 +36,7 @@ body {
 }
 
 .titlebox {
-    height: 400px;
+    /* height: 400px; */
     /* background-color: white; */
     display: flex;
     flex-direction: row;
@@ -44,13 +44,13 @@ body {
 }
 
 .textbox {
-    height: 400px;
+    /* height: 400px; */
     width: 700px;
     /* background-color: aqua; */
 }
 
 .imgbox {
-    height: 350px;
+    /* height: 350px; */
     width: 400px;
     /* background-color: blue; */
    
@@ -348,12 +348,14 @@ body {
 .project {
     height: 150px;
     /* width: 850px; */
-    background-color: rgb(88, 13, 228);
-    /* margin-top: 20px;
-    margin-left: 200px; */
+    /* background-color: rgb(88, 13, 228); */
+    margin: 40px;
+    /* margin-left: 200px; */
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
+
 
 .projecticon {
     height: 70px;
@@ -364,6 +366,7 @@ body {
     height: 150px;
     width: 150px;
     align-items: center;
+    margin: auto;
     /* display: list-item; */
 }
 .projectname {
@@ -389,40 +392,38 @@ body {
     margin-top: 10px;
     margin-left: -10px;
     color: white;
-
 }
 
-.pick1 {
+/* .pick1 {
     height: 370px;
     width: 50%;
-    /* background-color: red; */
-}
+    background-color: red;
+} */
 
 .pick2 {
     height: 370px;
     /* width: 50%; */
     width: 50%;
     /* background-color: pink; */
-
 }
 
-.desplay {
+/* .desplay {
     height: 370px;
     width: 100%;
 
-}
+} */
 
-.Abc {
+/* .Abc {
     font-size: 35px;
     font-weight: 700;
     margin-top: 10px;
 
-}
+} */
 
-.mobileapp {
+/* .mobileapp {
     font-size: 18px;
 
-}
+}   */
 
 .footer {
     height: 400px;
@@ -483,6 +484,47 @@ body {
     padding-top: 15px;
     word-spacing: 6px;
 }
+
+
+
+
+
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-bottom: 20px;
+    height: auto;
+
+}
+
+
+.gridIitem {
+    /* background-color: red; */
+    color: white;
+    box-shadow: 0px, 0px 10px yellow;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.bgimage{
+    /* height: 400px; */
+    width: 100%;
+}
+.Abc {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+
+.mobileapp {
+    font-size: 18px;
+
+}
+
 
 
 

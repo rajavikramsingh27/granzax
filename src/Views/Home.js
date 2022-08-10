@@ -3,23 +3,22 @@ import Styles from '../css/Home.module.css'
 import { ImageStyle } from '../utils/controller/ImageStyle';
 import Header from '../utils/Header'
 import Footer from '../utils/Footer'
+import { ScrollMenu } from 'react-horizontal-scrolling-menu';
 
 
 export default class Home extends Component {
 
-  // const arrTechnologyIcon = [];
-
-
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      arrTechnologyIcon: [ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon, ImageStyle.firebase, ImageStyle.docker, ImageStyle.kuber],
-      arrTechnologyTitle: ['Flutter', 'Going', 'React', 'Firebase', 'Docker ', 'Kubernetes ']
-    }
-  }
-
   render() {
+    
+    const appname = ['Abc project', 'Abc project','Abc project','Abc project','Abc project','Abc project']
+    const apps = ['UI/UX, Mobile App Development','UI/UX, Mobile App Development','UI/UX, Mobile App Development','UI/UX, Mobile App Development','UI/UX, Mobile App Development','UI/UX, Mobile App Development']
+    const imageapps = [ImageStyle.mobile1, ImageStyle.mobile2, ImageStyle.mobile3, ImageStyle.mobile4,ImageStyle.mobile5,ImageStyle.mobile6];
+  
+    
+
+    const names = ["Flutter", 'Goiang', 'React','Firebase','Docker','Kubernetes',"Flutter", 'Goiang', 'React',];
+  const image = [ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon,ImageStyle.firebase,ImageStyle.docker,ImageStyle.kuber,ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon, ]
+ 
     return (
       <div className={Styles.body}>
         <Header />
@@ -82,11 +81,7 @@ export default class Home extends Component {
 
             <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
           </div>
-            {/* <div className={Styles.aboutbtn}>
-              <div className={Styles.btntext}>All Services
-
-              <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
-            </div> */}
+            
           </div>
           <div className={Styles.webelive}>We believe that our strength lies in the comprehensive services we provide to our clients. From full-stack development to just consultancy, we deliver exactly what you demand.</div>
           <div className={Styles.ourservice}>Our Services</div>
@@ -119,57 +114,44 @@ export default class Home extends Component {
           <div className={Styles.trand}>Trending</div>
           <div className={Styles.tech}>Technologies</div>
 
-          <div className={Styles.project}>
-            <div className={Styles.pickicon} >
-              <img className={Styles.projecticon} src={ImageStyle.flutter} />
-              <div className={Styles.projectname}>Flutter</div>
+         
+            <ScrollMenu className={Styles.scroll}>
+              <div className={Styles.project}>
+              {
+          image.map((data, index) =>
+            <div className={Styles.pickicon}>
+              <img className={Styles.projecticon} src={image[index]} />
+              <div className={Styles.projectname}>{names[index]}</div>
             </div>
+          )
+        }
+              </div>
+              
+         </ScrollMenu>
+          
             
-          </div>
+          
 
 
 
           <div className={Styles.recentilywork}>Our Work done recently </div>
+          
+          <div className={Styles.gridContainer}>
+        {
+          image.map((data, index) =>
+          <div className={Styles.gridIitem}>
+           <img className={Styles.bgimage} src={imageapps[index]} />
+           <div className={Styles.Abc }>{appname[index]}</div>
+           <div className={Styles.mobileapp}>{apps[index]}</div>
+      
+        </div>
+          )
+
+        }
+        </div>
 
 
-          <div className={Styles.twopick}>
-            <div className={Styles.pick1}>
-
-              <img className={Styles.desplay} src={ImageStyle.mobile1} />
-              <div className={Styles.Abc}>Abc project</div>
-              <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
-            </div>
-            <div className={Styles.pick2}>
-              <img className={Styles.desplay} src={ImageStyle.mobile2} />
-              <div className={Styles.Abc}>Abc project</div>
-              <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
-            </div>
-          </div>
-
-          <div className={Styles.twopick}>
-            <div className={Styles.pick1}>
-              <img className={Styles.desplay} src={ImageStyle.mobile3} />
-              <div className={Styles.Abc}>Abc project</div>
-              <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
-            </div>
-            <div className={Styles.pick2} >
-              <img className={Styles.desplay} src={ImageStyle.mobile4} />
-              <div className={Styles.Abc}>Abc project</div>
-              <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
-            </div>
-          </div>
-          <div className={Styles.twopick}>
-            <div className={Styles.pick1}>
-              <img className={Styles.desplay} src={ImageStyle.mobile5} />
-              <div className={Styles.Abc}>Abc project</div>
-              <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
-            </div>
-            <div className={Styles.pick2} >
-              <img className={Styles.desplay} src={ImageStyle.mobile6} />
-              <div className={Styles.Abc} >Abc project</div>
-              <div className={Styles.mobileapp}>UI/UX, Mobile App Development </div>
-            </div>
-          </div>
+         
         </div>
         <Footer />
       </div>

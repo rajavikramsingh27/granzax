@@ -8,9 +8,7 @@
     margin-top: 100px;
 
 }
-.title:hover{
-    cursor: pointer;
-}
+
 .subtitle{
     font-size: 20px;
     color: white;
@@ -19,53 +17,50 @@
 .box{
     display: flex;
     flex-direction: row;
-    height: 300px;
+    height: auto;
     /* background-color: aqua; */
-    margin-top: 50px;
+    margin: 20px;
+    justify-content: center;
 }
 .box1{
-    width: 300px;
-    /* background-color: red;  */
-     /* text-align: center; */
+    width: 30%;
+    margin: auto;
      font-size: 140px;
      font-weight: bold;
      color:#68BB1D ;
-     padding-left: 40px;
+     padding: 30px;
 }
-.box1:hover{
-    cursor: pointer;
-}
+
 
 .box2{
-    width: 800px;
-    /* background-color: bisque; */
-
+    width: 70%;
 }
 .analysis{
     font-size: 35px;
     color: white;
 }
 .after{
+    /* height: auto; */
     font-size: 16px;
     color: white;
     line-height: 35px;
 }
-.box2:hover{
-    cursor: pointer;
-}
 .buttenbox{
     /* background-color: red; */
-    height: 60px;
+    height: auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    ;
 }
 .btn{
     /* background-color: aqua; */
-    height: 40px;
-    width: 140px;
-    margin-left: 100px;
+    /* height: 40px; */
+    /* width: 140px; */
+    margin: 10px;
     font-size: 14px;
-  padding: 15px;
+  padding: 16px;
+  /* padding-top: 5px; */
   border: 1px solid white;
   border-radius: 12px;
   color: white;
@@ -77,16 +72,16 @@
     cursor: pointer;
 }
 .btntext{
-    width: 100px;
-    margin-top: -20px;
+    /* width: 100px; */
+    /* margin-top: -20px; */
 }
 .btntext2{
-    width: 130px;
+    /* width: 130px; */
     margin-top: -20px;
 }
 .journey{
     /* background-color: antiquewhite; */
-    height: 50px;
+    /* height: 50px; */
     text-align: center;
     border-radius: 50px;
     border: 1px solid #68BB1D;
@@ -94,6 +89,7 @@
     font-size: 25px;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 16px;
     
 
 }

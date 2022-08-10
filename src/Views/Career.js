@@ -18,7 +18,7 @@ export default class Career extends Component {
           <div className={Styles.confidence}>Confidence and Self-Inspiration</div>
           <div className={Styles.minitext}>Willingness to take initiatives and confidence of finding unique solutions for every difficulty.</div>
         </div>
-         <div className={Styles.box1}>
+         <div className={Styles.boxtwo}>
          <div className={Styles.confidence}>Eagerness to Learn </div>
          <div className={Styles.minitext}>We never stop learning. We love the idea of exploring and developing new-skills with every project.</div>
          </div>
@@ -30,9 +30,9 @@ export default class Career extends Component {
           <div className={Styles.confidence}> Out of the box thinking</div>
           <div className={Styles.minitext}>We encourage out of the box thinking to approach every challenge with an appropriate yet eccentric solution. </div>
         </div>
-         <div className={Styles.box1}>
+         <div className={Styles.boxtwo}>
          <div className={Styles.confidence}> Eagerness to Learn</div>
-         <div className={Styles.minitext}> Devise solutions based on customer’s needs and interests. We ensure to configure approaches that meet our customers’ requirements.</div>
+         <div className={Styles.minitext}> Devise solutions based on customer’s needs and interests. We ensure to configure approaches that meet our customers.</div>
          </div>
 
          

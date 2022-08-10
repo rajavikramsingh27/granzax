@@ -23,7 +23,7 @@ export default class Mobile extends Component {
           </div>
           <div className={Styles.textbox2}>
            
-            <div className={Styles.mobile}> Our team of mobile app developers is capable of creating apps for multiple-platforms like iOS, Android and cross-platform solutions in Flutter, React Native & Ionic. Being one of the top-rated mobile application development companies in USA and India, we have expertise in developing mobile app development solutions to meet your business requirements. </div>
+            <div className={Styles.ourtext}> Our team of mobile app developers is capable of creating apps for multiple-platforms like iOS, Android and cross-platform solutions in Flutter, React Native & Ionic. Being one of the top-rated mobile application development companies in USA and India, we have expertise in developing mobile app development solutions to meet your business requirements. </div>
           </div>
   
         </div>

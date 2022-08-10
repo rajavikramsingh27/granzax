@@ -13,6 +13,9 @@ import Howwork from './Views/Howwork'
 import Career from './Views/Career'
 import CareerToday from './Views/CareerToday';
 import AppName from './Views/AppName';
+import List from './Views/List';
+import Grid from './Views/Grid';
+
 
 
 
@@ -31,6 +34,9 @@ function App() {
           <Route path='/Career' element={<Career />} />/
           <Route path='/CareerToday' element={<CareerToday />} />/
           <Route path='/AppName' element={<AppName />} />/
+          <Route path='/List' element={<List />} />/
+          <Route path='/Grid' element={<Grid/>} />/
+
 
           
           

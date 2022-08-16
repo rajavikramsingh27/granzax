@@ -10,114 +10,100 @@
 }
 .title{
     font-size: 30px;
-    color: white;
+    color:#68BB1D;
     padding-top: 30px;
     font-weight: 600;
 }
 .what{
     font-size: 22px;
     color: white;
-    /* margin-top: 50px; */
-    /* width: auto; */
+    margin-top: 30px;
+    padding-bottom: 20px;
 
 }
 .subtitle{
-    width: auto;
+    width: 65%;
     font-size: 26px;
     color: white;
-    /* padding-right: 450px; */
     font-weight: 500;
 
 }
 .trusted{
     font-size: 35px;
-    color: white;
-    width: 600px;
+    color:#68BB1D;
+    width: auto;
     line-height: 60px;
     margin-top: 40px;
 }
 .minitextbox {
-    /* height: 350px; */
-    width: 100%;
-    /* background-color: aqua; */
-    /* margin: 50px; */
-    /* margin-left: 10px; */
+    width: auto;
     padding: 20px;
     display: flex;
     flex-direction: row;
 }
 
 .textbox1 {
-    width: 45%;  
+    width: auto;  
     border-radius: 30px;
 }
 .textbox2 {
-    height: 300px;
-    width: 45%;
-    /* background-color: #1D1D1D; */
+    height: auto;
+    width: auto;
     margin: auto;
     border-radius: 30px;
     padding: 10px;
 }
 .mobile {
     color: white;
-    width: auto;
-    padding: 10px;
+    width: 85%;
+    padding: 16px;
     line-height: 32px;
     
 }
 .ourtext{
     color: white;
     width: auto;
-    line-height: 32px;
-    margin-top: -40px;
-    
+    line-height: 30px; 
 }
 .subtitle2{
     font-size: 35px;
-    color: white;
-    /* padding-right: 450px; */
+    color:#68BB1D;
     font-weight: 600;
-   /* word-spacing: 10px; */
-   margin: 50px 0px 0px 20px;
+   margin: 30px 0px 0px 10px;
    
 }
 .textbox3 {   
      height: auto;
-    width: 50%;
+    width: 45%;
     background-color: #1D1D1D;
     border-radius: 30px;
-    margin: 20px;
+    margin: 5px;
 }
 .boxtitle {
    
     width: auto;
     padding: 12px;
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 20px;
     color: #68BB1D;
-    /* line-height: 45px; */
 }
 
 .textbox4 {
-    /* height: 290px; */
     width: 50%;
     background-color: #1D1D1D;
-    /* margin-left: 100px; */
     border-radius: 30px;
 }
 .endtext{
     font-size: 35px;
-    width: 100%;
+    width: auto;
     color: white;
-    /* width: 750px; */
     font-weight: 600;
 }
 .wehave{
     color: white;
     font-size: 18px;
     line-height: 40px;
-    padding: 40px;
+    margin: 6px;
 }
 .apptype{
     width: auto;

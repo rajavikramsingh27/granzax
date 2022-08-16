@@ -19,30 +19,22 @@
 
 }
 .box{
-    height: auto;
-    width: auto;
     background-color: #1D1D1D;
     display: flex;
     flex-direction: row;
     margin: 50px  10px 10px 10px;
     border: 1px solid white;
-    border-radius: 40px;
-
+    border-radius: 30px;
+    padding: 12px;
 }
 .box1{
-    /* height: 260px; */
-    /* background-color: red; */
-    width: auto;
-    /* margin-left: 40px; */
     padding: 16px 0px 16px 10px;
 }
 .box2{
     height: 240px;
-    /* background-color: red; */
-    /* width: 400px; */
     margin-left: auto;
     margin: 50px  10px 10px 10px;  
-justify-content: center;
+     justify-content: center;
 }
 
 .got{
@@ -54,8 +46,6 @@ justify-content: center;
 }
 .letus{
     font-size: 18px;
-    /* width: 330px; */
-    /* margin-top: -10px; */
     color: white;
 }
 .namebox{
@@ -65,12 +55,10 @@ justify-content: center;
 .name{
     font-size: 20px;
     color:#68BB1D ;
-    line-height: 10px;
 }
 .address{
     font-size: 20px;
     color:#68BB1D ;
-    line-height: 10px;
 }
 .post{
     font-size: 14px;
@@ -79,7 +67,6 @@ justify-content: center;
 .photo{
     height: 100px;
     width: 100px;
-  
 }
 .contectbox{
     height: 200px;
@@ -92,7 +79,6 @@ justify-content: center;
     margin-bottom: 100px;
 }
 .threebox{
-    /* background-color: antiquewhite; */
     width: 25%;
     margin: 10px;
 }
@@ -105,5 +91,4 @@ justify-content: center;
 .icon{
     height: 75px;
     width: 60px;
-    /* margin-top: 70px ; */
 }

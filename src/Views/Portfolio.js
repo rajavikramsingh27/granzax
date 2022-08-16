@@ -3,12 +3,20 @@ import Styles from '../css/Portfolio.module.css'
 import Header from '../utils/Header'
 import Footer from '../utils/Footer'
 import { ImageStyle } from '../utils/controller/ImageStyle';
+import { NavLink } from 'react-router-dom';
+import Mobile from '../Views/Mobile'
 
 
 
 
 export default class Portfolio extends Component {
   render() {
+    const names = ["App Name ","App Name ","App Name "];
+    const image = [ImageStyle.appimg,ImageStyle.app2,ImageStyle.app3 ]
+    const descripation =["Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.","Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+  ,"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."]
+   const icon =[ImageStyle.appleicon,ImageStyle.androidicon,ImageStyle.path,]
+
     return (
       <div>
         <Header/>
@@ -22,62 +30,33 @@ export default class Portfolio extends Component {
         <div className={ Styles.butten}>Health </div>
         <div className={ Styles.butten}>Social </div>
              </div>
-             <div className={Styles.appbox}>
-             <div className={Styles.apptext}>
-              <div className={Styles.app}>App Name</div>
-              <div className={Styles.lorem}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</div>
-             <div className={Styles.icon}> 
-             <img className={Styles.appicon} src={ImageStyle.appleicon} />
-             <img className={Styles.appicon} src={ImageStyle.androidicon} />
-             <img className={Styles.appicon} src={ImageStyle.path} />
-             
-             </div>
-             <div className={Styles.appbtn}>View Case Study
+           
+             {
+                image.map((data, index) =>
+                <div className={Styles.appbox}>
+                  <div className={Styles.apptext}>
+                      <div className={Styles.app}>{names[index]}</div>
+                      <div className={Styles.lorem}>{descripation[index]}</div>
+                    
+                      <div className={Styles.icon}>
+                      
+                     
+                      <img className={Styles.appicon} src={icon[index]} />
+                    
+                        </div> 
+                        <NavLink className={Styles.appbtn} to="/AppName" >
+                        View Case Study
              <img className={Styles.arrow} src={ImageStyle.arrowright} />
-              </div>
+                        </NavLink>
+                    
+                  </div>
+                  <div className={Styles.appimg}>
+             <img className={Styles.appphoto} src={ image[index]} />
              </div>
-             <div className={Styles.appimg}>
-             <img className={Styles.appphoto} src={ImageStyle.appimg} />
-             </div>
-             </div>
+                    </div>
+                )
+              }
 
-             <div className={Styles.appbox}>
-             <div className={Styles.apptext}>
-              <div className={Styles.app}>App Name</div>
-              <div className={Styles.lorem}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</div>
-             <div className={Styles.icon}> 
-             <img className={Styles.appicon} src={ImageStyle.appleicon} />
-             <img className={Styles.appicon} src={ImageStyle.androidicon} />
-             <img className={Styles.appicon} src={ImageStyle.path} />
-             
-             </div>
-             <div className={Styles.appbtn}>View Case Study
-             <img className={Styles.arrow} src={ImageStyle.arrowright} />
-              </div>
-             </div>
-             <div className={Styles.appimg}>
-             <img className={Styles.appphoto} src={ImageStyle.app2} />
-             </div>
-             </div>
-
-             <div className={Styles.appbox}>
-             <div className={Styles.apptext}>
-              <div className={Styles.app}>App Name</div>
-              <div className={Styles.lorem}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</div>
-             <div className={Styles.icon}> 
-             <img className={Styles.appicon} src={ImageStyle.appleicon} />
-             <img className={Styles.appicon} src={ImageStyle.androidicon} />
-             <img className={Styles.appicon} src={ImageStyle.path} />
-             
-             </div>
-             <div className={Styles.appbtn}>View Case Study
-             <img className={Styles.arrow} src={ImageStyle.arrowright} />
-              </div>
-             </div>
-             <div className={Styles.appimg}>
-             <img className={Styles.appphoto} src={ImageStyle.app3} />
-             </div>
-             </div>
              <div className={Styles.footertop}></div>
         <Footer/>
         </div>

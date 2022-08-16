@@ -8,17 +8,50 @@ import { ScrollMenu } from 'react-horizontal-scrolling-menu';
 
 export default class Home extends Component {
 
-  render() {
-    
-    const appname = ['Abc project', 'Abc project','Abc project','Abc project','Abc project','Abc project']
-    const apps = ['UI/UX, Mobile App Development','UI/UX, Mobile App Development','UI/UX, Mobile App Development','UI/UX, Mobile App Development','UI/UX, Mobile App Development','UI/UX, Mobile App Development']
-    const imageapps = [ImageStyle.mobile1, ImageStyle.mobile2, ImageStyle.mobile3, ImageStyle.mobile4,ImageStyle.mobile5,ImageStyle.mobile6];
-  
-    
-
-    const names = ["Flutter", 'Goiang', 'React','Firebase','Docker','Kubernetes',"Flutter", 'Goiang', 'React',];
-  const image = [ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon,ImageStyle.firebase,ImageStyle.docker,ImageStyle.kuber,ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon, ]
  
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      title: "UI/UX & Graphic Design",
+      description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum ',
+
+    }
+  }
+
+  handleClick1 = () => {
+    this.setState({
+       title: "UI/UX & Graphic Design ",
+    
+      });
+  };
+  handleClick2 = () => {
+    this.setState({
+       title: "Mobile App Development ",
+    
+      });
+  };
+  handleClick3 = () => {
+    this.setState({
+       title: "Game Development",
+    
+      });
+  };
+  handleClick4 = () => {
+    this.setState({
+       title: "Web   Development ",
+    
+      });
+  };
+
+  render() {
+    const appname = ['Abc project', 'Abc project', 'Abc project', 'Abc project', 'Abc project', 'Abc project']
+    const apps = ['UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development']
+    const imageapps = [ImageStyle.mobile1, ImageStyle.mobile2, ImageStyle.mobile3, ImageStyle.mobile4, ImageStyle.mobile5, ImageStyle.mobile6];
+
+    const names = ["Flutter", 'Goiang', 'React', 'Firebase', 'Docker', 'Kubernetes', "Flutter", 'Goiang', 'React',];
+    const image = [ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon, ImageStyle.firebase, ImageStyle.docker, ImageStyle.kuber, ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon,]
+
     return (
       <div className={Styles.body}>
         <Header />
@@ -42,7 +75,7 @@ export default class Home extends Component {
           <div className={Styles.aboutbtn}>
             <div className={Styles.btntext}>About
 
-            <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
+              <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
           </div>
         </div>
         <div className={Styles.team}>
@@ -77,81 +110,80 @@ export default class Home extends Component {
           <div className={Styles.overtextbox}>
             <div className={Styles.ourtext}>What can we do for you?</div>
             <div className={Styles.aboutbtn}>
-            <div className={Styles.btntext}>All Services
+              <div className={Styles.btntext}>All Services
 
-            <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
-          </div>
-            
+                <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
+            </div>
+
           </div>
           <div className={Styles.webelive}>We believe that our strength lies in the comprehensive services we provide to our clients. From full-stack development to just consultancy, we deliver exactly what you demand.</div>
           <div className={Styles.ourservice}>Our Services</div>
           <div className={Styles.details}>
             <div className={Styles.minibox} >
-              <div className={Styles.radiousminibox}>
+              <div className={Styles.radiousminibox}  onClick={this.handleClick1}>
                 <img className={Styles.designicon} src={ImageStyle.uidesign} />
                 <div className={Styles.icontext}>UI/UX & Graphic Design </div>
               </div>
-              <div className={Styles.radiousminibox}>
+              <div className={Styles.radiousminibox} onClick={this.handleClick2}>
                 <img className={Styles.designicon} src={ImageStyle.mobile} />
                 <div className={Styles.icontext}>Mobile App Development</div>
               </div>
-              <div className={Styles.radiousminibox}>
+              <div className={Styles.radiousminibox}  onClick={this.handleClick3}>
                 <img className={Styles.designicon} src={ImageStyle.gameicon} />
                 <div className={Styles.icontext}>Game Development</div>
               </div>
-              <div className={Styles.radiousminibox}>
+              <div className={Styles.radiousminibox}  onClick={this.handleClick4}>
                 <img className={Styles.designicon} src={ImageStyle.webicon} />
                 <div className={Styles.icontext}>Web   Development</div>
               </div>
             </div>
             <div className={Styles.uitext}>
-              <div className={Styles.uiux}>UI/UX & Graphic Design</div>
-
-              <div className={Styles.lorem}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum</div>
-
+              <div className={Styles.uiux}>{this.state.title}</div>
+              <div className={Styles.lorem}>{this.state.description}</div>
             </div>
           </div>
+
           <div className={Styles.trand}>Trending</div>
           <div className={Styles.tech}>Technologies</div>
 
-         
-            <ScrollMenu className={Styles.scroll}>
-              <div className={Styles.project}>
+
+          <ScrollMenu className={Styles.scroll}>
+            <div className={Styles.project}>
               {
-          image.map((data, index) =>
-            <div className={Styles.pickicon}>
-              <img className={Styles.projecticon} src={image[index]} />
-              <div className={Styles.projectname}>{names[index]}</div>
+                image.map((data, index) =>
+                  <div className={Styles.pickicon}>
+                    <img className={Styles.projecticon} src={image[index]} />
+                    <div className={Styles.projectname}>{names[index]}</div>
+                  </div>
+                )
+              }
             </div>
-          )
-        }
-              </div>
-              
-         </ScrollMenu>
-          
-            
-          
+
+          </ScrollMenu>
+
+
+
 
 
 
           <div className={Styles.recentilywork}>Our Work done recently </div>
-          
+
           <div className={Styles.gridContainer}>
-        {
-          image.map((data, index) =>
-          <div className={Styles.gridIitem}>
-           <img className={Styles.bgimage} src={imageapps[index]} />
-           <div className={Styles.Abc }>{appname[index]}</div>
-           <div className={Styles.mobileapp}>{apps[index]}</div>
-      
-        </div>
-          )
+            {
+              image.map((data, index) =>
+                <div className={Styles.gridIitem}>
+                  <img className={Styles.bgimage} src={imageapps[index]} />
+                  <div className={Styles.Abc}>{appname[index]}</div>
+                  <div className={Styles.mobileapp}>{apps[index]}</div>
 
-        }
-        </div>
+                </div>
+              )
+
+            }
+          </div>
 
 
-         
+
         </div>
         <Footer />
       </div>

@@ -18,7 +18,6 @@
     display: flex;
     flex-direction: row;
     height: auto;
-    /* background-color: aqua; */
     margin: 20px;
     justify-content: center;
 }
@@ -40,13 +39,11 @@
     color: white;
 }
 .after{
-    /* height: auto; */
     font-size: 16px;
     color: white;
     line-height: 35px;
 }
 .buttenbox{
-    /* background-color: red; */
     height: auto;
     display: flex;
     flex-direction: row;
@@ -54,34 +51,23 @@
     ;
 }
 .btn{
-    /* background-color: aqua; */
-    /* height: 40px; */
-    /* width: 140px; */
     margin: 10px;
     font-size: 14px;
   padding: 16px;
-  /* padding-top: 5px; */
   border: 1px solid white;
   border-radius: 12px;
   color: white;
 }
 .btn:hover{
     background-color: #68BB1D;
-    /* color: black; */
     border: none;
     cursor: pointer;
 }
-.btntext{
-    /* width: 100px; */
-    /* margin-top: -20px; */
-}
+
 .btntext2{
-    /* width: 130px; */
     margin-top: -20px;
 }
 .journey{
-    /* background-color: antiquewhite; */
-    /* height: 50px; */
     text-align: center;
     border-radius: 50px;
     border: 1px solid #68BB1D;

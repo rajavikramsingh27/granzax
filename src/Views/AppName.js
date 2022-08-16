@@ -4,6 +4,7 @@ import Header from '../utils/Header'
 import Footer from '../utils/Footer'
 import { ImageStyle } from '../utils/controller/ImageStyle';
 import Scrollbars from 'react-custom-scrollbars';
+import { NavLink } from 'react-router-dom';
 
 export default class AppName extends Component {
   render() {
@@ -64,11 +65,11 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
         <div  className={Styles.detailslorem}>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</div>
           </div>
           </div>
-          
-          <div className={Styles.contactbtn}>Contact us
-          <img className={Styles.arrow} src={ImageStyle.arrowright} />
-
-          </div>
+          <NavLink className={Styles.contactbtn} to="/CareerToday" >
+          Contact us
+             <img className={Styles.arrow} src={ImageStyle.arrowright} />
+                        </NavLink>
+   
         <Footer/>
       </div>
     )

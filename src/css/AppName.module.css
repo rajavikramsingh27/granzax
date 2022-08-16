@@ -15,7 +15,6 @@
 }
 .btnbox{
     height: auto;
-    /* background-color: aqua; */
     display: flex;
     margin: 50px 10px;
 }
@@ -27,9 +26,6 @@
  
 }
 .btn{
-    /* background-color: red; */
-    width: auto;
-    height: auto;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -37,7 +33,7 @@
     border-radius: 16px;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px 20px;
 }
 .btn:hover{
     cursor: pointer;
@@ -46,7 +42,6 @@
 }
 .btntitle{
     font-size: 18px;
-    /* margin-top: -10px; */
 }
 .btntext{
     font-size: 13px;
@@ -60,7 +55,6 @@
 .apps{
     height: 60px;
     width: 400px;
-    /* margin-left: 33%; */
     margin: auto;
 }
 .apps:hover{
@@ -106,10 +100,8 @@
 .box2{
     height: auto;
     width: 100%;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
-    /* margin-bottom: 50px; */
 }
 .photo{
     width: 50%;
@@ -129,7 +121,6 @@
     width: 90%;
 }
 .box3{
-    /* height: 500px; */
     display: flex;
     flex-direction: row;
 }
@@ -173,6 +164,6 @@
 }
 .contactbtn:hover{
     background-color: #68BB1D;
-    color: white;
+    color:#1D1D1D;
     cursor: pointer;
 }

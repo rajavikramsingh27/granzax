@@ -16,21 +16,15 @@
 }
 
 .wtextbox {
-    /* height: 300px; */
-    /* background-color: antiquewhite; */
     margin: 50px;
     display: flex;
     flex-direction: row;
 }
 
 .wtext1 {
-    /* width: 560px; */
-    /* background-color: aqua; */
     border-right: 3px solid #68BB1D;
 }
 .wtext2 {
-    /* width: 580px; */
-    /* background-color: red; */
     margin-left: 60px;
 
 }
@@ -53,11 +47,6 @@
 }
 
 .radiousbox {
-    /* height: 400px; */
-    /* background-color: aqua; */
-    /* margin-top: 50px;
-    margin-left: 100px; */
-    /* margin: auto; */
     display: flex;
     flex-direction: row;
     margin: 50px;
@@ -91,16 +80,12 @@
 
 .satesfied {
     margin-top: 20px;
-  
-    /* margin-left: 100px; */
     display: flex;
     flex-direction: row;
 
 }
 
 .radiousbox3 {
-    /* width: 300px; */
-    /* background-color: #1D1D1D; */
     border-radius: 30px;
     display: flex;
     flex-direction: row;
@@ -108,8 +93,6 @@
     font-size: 32px;
 }
 .radiousbox4 {
-    /* width: 500px; */
-    /* background-color: #1D1D1D; */
     margin: 10px  auto 0px  auto;
     color: white;
     line-height: 40px;
@@ -122,8 +105,6 @@
 }
 
 .threebox {
-    /* height: 480px; */
-    /* background-color: #1D1D1D; */
     margin: 50px;
 }
 
@@ -143,24 +124,19 @@
     margin: 10px;
 
 }
-
-.three:hover {
-    background-color: #68BB1D;
-    color: black;
-}
-
 .threetext {
     font-size: 20px;
     text-align: center;
+  padding: 10px;
 }
 
 .threetextmindful {
-    width: 180px;
     font-size: 20px;
+    padding: 10px;
 }
 
 .threebest {
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     border: 2px solid #68BB1D;
     color: white;
@@ -174,7 +150,6 @@
 
 .wanttextbox {
     height: 120px;
-    /* background-color:aqua;  */
     display: flex;
     flex-direction: row;
     margin-top: 40px;
@@ -193,7 +168,6 @@
 .aboutbtn {
     height: 50px;
     width: 200px;
-    /* background-color: aliceblue; */
     border-radius: 40px;
     border: 1px solid #68BB1D;
     color: #68BB1D;
@@ -222,7 +196,6 @@
 }
 
 .wealways {
-    /* margin-right: 420px; */
     color: white;
     line-height: 35px;
    margin: 0px auto 50px auto;

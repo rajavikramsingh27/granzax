@@ -3,6 +3,7 @@ import Header from '../utils/Header'
 import Footer from '../utils/Footer'
 import Styles from '../css/Service.module.css';
 import { ImageStyle } from '../utils/controller/ImageStyle';
+import { NavLink } from 'react-router-dom';
 
 
 export default class Services extends Component {
@@ -121,10 +122,17 @@ export default class Services extends Component {
           </div>
           <div className={Styles.details}>
           <div className={Styles.aboutbtn}>
+          <NavLink className={Styles.btntext} to="/Mobile" >
+            
+          Explore
+             <img className={Styles.arrow2} src={ImageStyle.arrowright} />
+                        </NavLink>
+                        </div>
+          {/* <div className={Styles.aboutbtn}>
             <div className={Styles.btntext}>Explore
         
         <img  className={ Styles.arrow2} src={ImageStyle.arrowright}/></div>
-      </div>
+      </div> */}
       <img className={Styles.mobileicon}  src={ImageStyle.greenmob} />
              </div>
           

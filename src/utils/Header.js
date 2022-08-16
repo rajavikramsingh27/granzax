@@ -32,7 +32,7 @@ export default class Header extends Component {
       <NavLink className={Styles.homebtn} to="/Portfolio" >Portfolio</NavLink>
       <NavLink className={Styles.homebtn} to="/Howwork" >  How work</NavLink>
       <NavLink className={Styles.homebtn} to="/Career" >Career</NavLink>
-      <NavLink className={Styles.homebtn} to="/Grid" >Contact</NavLink>
+      <NavLink className={Styles.homebtn} to="/CareerToday" >Contact</NavLink>
     </div>)
   }
 

@@ -35,31 +35,17 @@ export default class Mobile extends Component {
            
             <div className={Styles.mobile}> Native mobile apps are developed for specific mobile OS such as iOS or Android and users can access them from dedicated app stores.</div>
           </div>
-          <div className={Styles.textbox4}>
-          <div className={Styles.boxtitle}>Cross-platform App Development</div>
+          <div className={Styles.textbox3}>
+          <div className={Styles.boxtitle}>Cross-platform  Development</div>
            
-            <div className={Styles.mobile}>  Cross-platform mobile apps are developed to function for multiple mobile platforms like iOS, Android, etc. without changing the codebase. </div>
+            <div className={Styles.mobile}>  Cross-platform mobile apps are developed to function for multiple mobile platforms like iOS, Android, etc. without changing . </div>
           </div>
   
         </div>
         <div className={Styles.endtext}>End-to-End Mobile App Development </div>
         <div className={Styles.endtext}>Services for iOS, Android and Cross-platform</div>
        <div className={Styles.wehave}>We have been providing world-class mobile app development services for Startups, mid-scale businesses, and enterprises since 2011. Our highly skilled mobile app developers will work on transforming your app idea into an innovative and secure mobile application. Whether you require native mobile app or cross-platform apps, our superior mobile app development services are designed to deliver cutting-edge mobility solutions tailored to your business needs. </div>
-       <div className={Styles.minitextbox}>
-       <div className={Styles.textbox1}>
-        <div className={Styles.apptype}> Mobile App UI/UX Design</div>
-        <div className={Styles.apptype}> Native App Development</div>
-        <div className={Styles.apptype}> Cross-platform App Development</div>
-        <div className={Styles.apptype}> Progressive Web App Development</div>
-       </div>
-       <div className={Styles.textbox2}>
-       <div className={Styles.apptype}> Enterprise Mobility Solutions</div>
-        <div className={Styles.apptype}> Wearable App Development</div>
-        <div className={Styles.apptype}>IoT App Development</div>
-        <div className={Styles.apptype}>Maintenance and Support  </div>
-       </div>
-       </div>
-
+      
 
         <Footer/>
 

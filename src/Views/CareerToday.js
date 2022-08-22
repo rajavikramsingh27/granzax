@@ -15,6 +15,7 @@ export default class CareerToday extends Component {
         <div className={Styles.box}>
         <div className={Styles.threebox}> 
         <div className={Styles.got}>Got a startup idea & need to get it validated?</div>
+        
           </div> 
         <div className={Styles.threebox}>
         <div className={Styles.letus}>Let us give you our honest opinion.</div>

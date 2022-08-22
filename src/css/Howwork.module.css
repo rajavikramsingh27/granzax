@@ -6,13 +6,12 @@
     color: white;
     font-size: 60px;
     margin-top: 100px;
-
+    padding: 0px  20px;
 }
-
 .subtitle{
     font-size: 20px;
     color: white;
-  
+    padding: 0px  20px;
 }
 .box{
     display: flex;
@@ -20,8 +19,10 @@
     height: auto;
     margin: 20px;
     justify-content: center;
+    padding: 20px;
 }
 .box1{
+    height: auto;
     width: 30%;
     margin: auto;
      font-size: 140px;
@@ -29,10 +30,9 @@
      color:#68BB1D ;
      padding: 30px;
 }
-
-
 .box2{
     width: 70%;
+    text-align: justify;
 }
 .analysis{
     font-size: 35px;
@@ -48,7 +48,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    ;
 }
 .btn{
     margin: 10px;
@@ -63,7 +62,6 @@
     border: none;
     cursor: pointer;
 }
-
 .btntext2{
     margin-top: -20px;
 }
@@ -76,6 +74,27 @@
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 16px;
-    
-
+}
+@media screen and (max-width: 900px) {
+    .title{
+        font-size: 50px;
+    }
+    .box{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .box1{
+      width: auto;  
+      font-size: 70px;
+    }
+    .box2{
+        text-align: justify;
+        width: auto;
+    }
+    .analysis{
+        text-align: start;
+    }
+    .btn{
+        padding: 8px;
+    }
 }

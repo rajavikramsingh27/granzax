@@ -6,6 +6,7 @@ import Footer from '../utils/Footer'
 import { ScrollMenu } from 'react-horizontal-scrolling-menu';
 
 
+
 export default class Home extends Component {
 
  

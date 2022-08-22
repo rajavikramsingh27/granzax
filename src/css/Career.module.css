@@ -6,39 +6,31 @@
     color: white;
     font-size: 60px;
     margin-top: 100px;
-
+    padding: 20px;
 }
-
 .title2{
     color: white;
     font-size: 60px;
   margin-top: -20px;
-
+  padding: 0px  20px;
 }
 .subtitle{
     font-size: 20px;
     color: white;
     margin-right: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    text-align: justify;
 }
-
 .gridContainer {
+    /* background-color: antiquewhite; */
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    padding-bottom: 20px;
-  
+    /* display: flex; */
+    padding-bottom: 10px;
+  text-align: justify;
     height: auto;
-
-
 }
-.gridContainer2{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    height: auto;
-
-
-}
-
 .box1{
     height: auto;
     background-color: #1D1D1D;
@@ -63,14 +55,13 @@
 }
 .confidence{
     font-size: 35px;
-    width: 250px;
+    width: auto;
     font-weight: 600;
 }
 .minitext{
     font-size: 17px;
     line-height: 35px;
 }
-
 .boxgreen{
     margin: 20px;
     background-color: #1D1D1D;
@@ -99,13 +90,11 @@
     color: white;
     font-size: 17px;
     margin-bottom: 12px;
-
 }
 .appbox{
     margin: 20px;
     display: flex;
     flex-direction: row;
-
 }
 .appbox1{
     margin: 12px;
@@ -142,4 +131,30 @@
     height: 15px;
     margin-top: 15px;
     margin-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .title{
+        font-size: 50px;
+    }
+    .title2{
+        font-size: 50px;
+    }
+    .subtitle{
+        width: 90%;
+    }
+    .confidence{
+        font-size: 25px;
+    }
+    .mobile{
+        font-size: 27px;
+        text-align: start;
+        width: auto;
+    }
+    .appbtn{
+        width: auto;
+    }
+    .gridContainer{
+        grid-template-columns: none;
+    }
 }

@@ -2,32 +2,30 @@
     font-family: 'Palatino';
     /* padding: 12px; */
 }
-
 .servicetext {
     color: white;
     font-size: 90px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 30px;
+    padding: 20px;
 }
 .webuild {
     font-size: 30px;
     color: white;
-    padding-top: 30px;
+    padding: 20px ;
 }
-
 .what {
     font-size: 50px;
     color: white;
     text-align: center;
     margin-top: 40px;
 }
-
 .minititle {
     font-size: 18px;
     color: white;
     text-align: center;
+    padding: 10px 20px;
 }
-
 .servicetitlebox {
     margin: 20px;
     background-color: #1D1D1D;
@@ -35,50 +33,37 @@
     border-radius: 30px;
     padding-bottom: 20px;
 }
-
 .servicetitle {
     font-size: 40px;
     color: white;
     padding: 16px;
 }
-
 .detailsbox {
     display: flex;
     flex-direction: row;
-
 }
-
 .details {
     margin: auto;
 }
-
 .text {
     display: flex;
     flex-direction: row;
- margin: 20px;
-
+   margin: 20px;
 }
-
-
-
 .arrow {
     height: 15px;
     width: 28px;
     margin: 22px 5px 0px  0px;
 }
-
 .inter {
     padding-top: 15px;
     font-size: 15px;
-    color: white;
-   
+    color: white; 
 }
-
 .inter:hover {
     color: #68BB1D;
     cursor: pointer;
 }
-
 .aboutbtn {
     height: 50px;
     width: 200px;
@@ -87,8 +72,6 @@
     color: #68BB1D;
     margin: 20px 20px 0px auto;
 }
-
-
 .aboutbtn:hover {
     cursor: pointer;
     background-color: #68BB1D;
@@ -109,24 +92,55 @@
     width: 30px;
     margin: 0px 0px -3px 10px;
 }
-
 .designicon {
     height: 80px;
     width: 62px;
     margin-left: 170px;
     margin-top: 20px;
 }
-
 .mobileicon {
     height: 80px;
     width: 50px;
     margin-left: 170px;
     margin-top: 20px;
 }
-
 .game {
     height: 60px;
     width: 60px;
     margin-left: 170px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .what{
+        font-size: ;
+    }
+    .servicetitle{
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+    .detailsbox{
+        flex-direction: column;
+    }
+    .arrow {
+        height: 12px;
+        width: 22px;
+        margin: 10px 5px 0px  0px;
+    }
+    .text{
+        margin: 5px;
+    }
+
+    .inter {
+        padding-top: 4px;
+        font-size: 14px;
+    }
+    .servicetitlebox {
+        margin: 30px;
+    }
+    .mobileicon,.game,.designicon{
+     display: none;
+    }
+    
 }

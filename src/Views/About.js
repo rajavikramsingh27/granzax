@@ -25,11 +25,11 @@ export default class About extends Component {
         <div className={Styles.radiousbox}>
           <div className={Styles.radiousbox1}>
             <div className={Styles.boxtitle}>Transparent Communication</div>
-            <div className={Styles.webelieve}>We believe in establishing transparent communications with our clients. The key to a strong and ever-lasting bond is communication and understanding between two parties.</div>
+            <div className={Styles.webelieve}>We believe in establishing transparent communications with our clients. The key to a strong and ever-lasting bond is communication and understanding between two parties .</div>
           </div>
           <div className={Styles.radiousbox2}>
             <div className={Styles.boxtitle}>Module Accomplishment</div>
-            <div className={Styles.webelieve}>Payment is expected only after the successful accomplishment of each module. We believe in the work and we rely upon mutual trust throughout the project. </div>
+            <div className={Styles.webelieve}>Payment is expected only after the successful accomplishment of each module. We believe in the work and we rely upon mutual trust throughout the project mutual trust throughout the project. </div>
           </div>
   
         </div>
@@ -41,7 +41,7 @@ export default class About extends Component {
           </div>
           <div className={Styles.radiousbox2}>
             <div className={Styles.boxtitle}>Experience Speaks Louder </div>
-            <div className={Styles.webelieve}>Payment is expected only after the successful accomplishment of each module. We believe in the work and we rely upon mutual trust throughout the project. </div>
+            <div className={Styles.webelieve}>Payment is expected only after the successful accomplishment of each module. We believe in the work and we rely upon mutual trust throughout the project trust throughout the project. </div>
           </div>
   
         </div>

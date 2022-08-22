@@ -6,17 +6,18 @@
     color: white;
     font-size: 60px;
     margin-top: 100px;
+    padding: 0px 20px;
 }
 .title2{
     color: white;
     font-size: 60px;
   margin-top: -20px;
-
+  padding: 0px 20px;
 }
 .subtitle{
     font-size: 20px;
     color: white;
-
+    padding: 20px;
 }
 .box{
     background-color: #1D1D1D;
@@ -26,6 +27,7 @@
     border: 1px solid white;
     border-radius: 30px;
     padding: 12px;
+    margin: 20px;
 }
 .box1{
     padding: 16px 0px 16px 10px;
@@ -35,8 +37,8 @@
     margin-left: auto;
     margin: 50px  10px 10px 10px;  
      justify-content: center;
+     padding: 12px;
 }
-
 .got{
     width: auto;
     font-size: 35px;
@@ -69,14 +71,16 @@
     width: 100px;
 }
 .contectbox{
-    height: 200px;
     background-color: #1D1D1D;
     display: flex;
     flex-direction: row;
-    margin: 50px 10px 0px 10px;
+    margin: 50px  10px 10px 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 12px;
+    height: 200px;
     border: 1px solid #68BB1D;
-    border-radius: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .threebox{
     width: 25%;
@@ -91,4 +95,27 @@
 .icon{
     height: 75px;
     width: 60px;
+}
+
+@media screen and (max-width: 900px) {
+    .title{
+        
+        font-size: 50px;
+    }
+    .title2{
+        font-size: 50px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .threebox{
+        width: 100%;
+        align-items: center;
+    }
+    .got{
+        font-size: 28px;
+       line-height: 35px;
+    }
+   
+    
 }

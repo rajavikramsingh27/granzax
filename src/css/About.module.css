@@ -1,21 +1,20 @@
 * {
     font-family: 'Palatino';
- /* padding: 12px; */
 }
 .abouttext {
     color: white;
     font-size: 90px;
     font-weight: 700;
     margin-top: 50px;
-    padding: 20px;
+    padding-left: 20px;
 }
 .transforming {
     font-size: 30px;
-    color: white;
+    color:#68BB1D;
     padding: 20px;
 }
 .wtextbox {
-    margin: 50px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     padding: 0px 20px;
@@ -46,16 +45,16 @@
 .radiousbox {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin: 20px 30px;
 }
 .radiousbox1 {
-    width: 45%;
+    width: 49%;
     background-color: #1D1D1D;
     border-radius: 30px;
     padding-bottom: 30px;
 }
 .radiousbox2 {
-    width: 45%;
+    width: 49%;
     background-color: #1D1D1D;
     margin-left: auto;
     border-radius: 30px;
@@ -73,22 +72,22 @@
     text-align: justify;
 }
 .satesfied {
-    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding-left: 20px;
     text-align: justify;
 }
 .radiousbox3 {
     border-radius: 30px;
     display: flex;
     flex-direction: row;
-    color: white;
+    color:#68BB1D;
     font-size: 32px;
 }
 .radiousbox4 {
     margin: 10px  auto 0px  auto;
     color: white;
+    padding-left: 12px;
     line-height: 40px;
 }
 .the {
@@ -134,10 +133,9 @@
     color: black;
 }
 .wanttextbox {
-    height: 120px;
+    height: auto;
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
     padding: 20px;
 }
 .wanttext {
@@ -172,8 +170,8 @@
 .wealways {
     color: white;
     line-height: 35px;
-   margin: 0px auto 50px auto;
-   padding: 20px;
+   margin: 0px auto 30px auto;
+   padding-left: 20px;
    text-align: justify;
 }
 @media screen and (max-width: 900px) {

@@ -4,7 +4,6 @@ import Header from '../utils/Header'
 import Footer from '../utils/Footer'
 import { ImageStyle } from '../utils/controller/ImageStyle';
 import { NavLink } from 'react-router-dom';
-import Mobile from '../Views/Mobile'
 
 
 
@@ -57,7 +56,6 @@ export default class Portfolio extends Component {
                 )
               }
 
-             <div className={Styles.footertop}></div>
         <Footer/>
         </div>
     )

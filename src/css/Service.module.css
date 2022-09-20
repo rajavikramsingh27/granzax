@@ -1,37 +1,35 @@
 * {
     font-family: 'Palatino';
-    /* padding: 12px; */
 }
 .servicetext {
     color: white;
     font-size: 90px;
     font-weight: 700;
     margin-top: 30px;
-    padding: 20px;
+    padding-left: 20px;
 }
 .webuild {
     font-size: 30px;
-    color: white;
-    padding: 20px ;
+    color:#68BB1D;
+    padding-left: 20px ;
 }
 .what {
     font-size: 50px;
     color: white;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .minititle {
     font-size: 18px;
     color: white;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 .servicetitlebox {
     margin: 20px;
     background-color: #1D1D1D;
-    margin: 100px;
     border-radius: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
 }
 .servicetitle {
     font-size: 40px;

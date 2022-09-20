@@ -1,34 +1,30 @@
 *{
     font-family: 'Palatino';
-    /* padding: 16px; */
 }
 .title{
     color: white;
     font-size: 60px;
-    margin-top: 100px;
+    margin-top: 40px;
     padding: 0px  20px;
 }
 .subtitle{
     font-size: 20px;
-    color: white;
+    color:#68BB1D;
     padding: 0px  20px;
 }
 .box{
     display: flex;
     flex-direction: row;
     height: auto;
-    margin: 20px;
     justify-content: center;
-    padding: 20px;
 }
 .box1{
     height: auto;
-    width: 30%;
+    width: 25%;
     margin: auto;
      font-size: 140px;
      font-weight: bold;
      color:#68BB1D ;
-     padding: 30px;
 }
 .box2{
     width: 70%;
@@ -71,8 +67,8 @@
     border: 1px solid #68BB1D;
     color: #68BB1D;
     font-size: 25px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 16px;
 }
 @media screen and (max-width: 900px) {
@@ -93,6 +89,10 @@
     }
     .analysis{
         text-align: start;
+        padding-left: 20px;
+    }
+    .after{
+        padding: 20px;
     }
     .btn{
         padding: 8px;

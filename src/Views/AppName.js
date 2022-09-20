@@ -3,7 +3,6 @@ import Styles from '../css/AppName.module.css'
 import Header from '../utils/Header'
 import Footer from '../utils/Footer'
 import { ImageStyle } from '../utils/controller/ImageStyle';
-import Scrollbars from 'react-custom-scrollbars';
 import { NavLink } from 'react-router-dom';
 
 export default class AppName extends Component {

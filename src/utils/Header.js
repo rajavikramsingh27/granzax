@@ -29,19 +29,20 @@ export default class Header extends Component {
       <NavLink className={Styles.homebtn} to="/" >Home</NavLink>
       <NavLink className={Styles.homebtn} to="/ScreenAbout" >About</NavLink>
       <NavLink className={Styles.homebtn} to="/Services" >Service</NavLink>
-      <NavLink className={Styles.homebtn} to="/Portfolio" >Portfolio</NavLink>
+      {/* <NavLink className={Styles.homebtn} to="/Portfolio" >Portfolio</NavLink> */}
       <NavLink className={Styles.homebtn} to="/Howwork" >  How work</NavLink>
       <NavLink className={Styles.homebtn} to="/Career" >Career</NavLink>
-      <NavLink className={Styles.homebtn} to="/CareerToday" >Contact</NavLink>
+      <NavLink className={Styles.homebtn} to="/Conact" >Contact</NavLink>
     </div>)
   }
 
   render() {
     return (
       <div className={Styles.header}>
-        {/* <div className={Styles.logo}>LOGO</div> */}
+        <div className={ Styles.logoContainer}>
         <img  className={ Styles.logo} src={ImageStyle.GranzaXLogo}/>
-        {/* <img  className={ Styles.logo} src={ImageStyle.GranzaXLogoTransparent}/> */}
+        <img  className={ Styles.GranzaXLogoName} src={ImageStyle.GranzaXLogoName}/>
+        </div>
         <div className={Styles.menuBox} >
           {
             this.state.isSmall

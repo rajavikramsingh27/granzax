@@ -47,7 +47,7 @@ export default class About extends Component {
         </div>
         <div className={Styles.satesfied}>
           <div className={Styles.radiousbox}>
-            <div className={Styles.radiousbox3}>A satisfied client means a happy :) company </div>
+            {/* <div className={Styles.radiousbox3}>A satisfied client means a happy :) company </div> */}
             <div className={Styles.radiousbox4} >We are open to feedback and don’t hesitate in making amendments until the client is satisfied with the end result. Your every single feedback which is scope in our work is the top most priority of ours. We do not move ahead without your feedbacks. We’re even there, after project completion to provide complete support. </div>
           </div>
   

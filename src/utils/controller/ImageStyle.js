@@ -21,15 +21,15 @@ import greenicon from "../../Assets/Images/greenicon.png"
 import greenmob from "../../Assets/Images/greenmob.png"
 import game2 from "../../Assets/Images/game2.png"
 import web from "../../Assets/Images/web.png"
-import GranzaXLogo from "../../Assets/Images/GranzaX Logo.png"
-import GranzaXLogoTransparent from "../../Assets/Images/GranzaX Logo Transparent.png"
-import GranzaXLogoTransparentR from "../../Assets/Images/GranzaX Logo TransparentR.png"
+
 import appimg from "../../Assets/Images/appimg.png"
 import appleicon from "../../Assets/Images/appleicon.png"
 import androidicon from "../../Assets/Images/androidicon.png"
 import path from "../../Assets/Images/path.png"
 import app2 from "../../Assets/Images/app2.png"
 import app3 from "../../Assets/Images/app3.png"
+import GranzaXLogo from "../../Assets/Images/GranzaX Logo.png"
+import GranzaXLogoName from "../../Assets/Images/GranzaX Logo Name.png"
 import pick from "../../Assets/Images/pick.png"
 import location from "../../Assets/Images/location.png"
 import googal from "../../Assets/Images/googal.png"
@@ -68,8 +68,7 @@ export const ImageStyle = {
     app2: app2,
     app3: app3,
     GranzaXLogo: GranzaXLogo,
-    GranzaXLogoTransparent: GranzaXLogoTransparent,
-    GranzaXLogoTransparentR: GranzaXLogoTransparentR,
+    GranzaXLogoName: GranzaXLogoName,
     pick: pick,
     location: location,
     googal: googal

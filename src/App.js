@@ -11,7 +11,7 @@ import Mobile from './Views/Mobile'
 import Portfolio from './Views/Portfolio'
 import Howwork from './Views/Howwork'
 import Career from './Views/Career'
-import CareerToday from './Views/CareerToday';
+import Conact from './Views/Conact';
 import AppName from './Views/AppName';
 import List from './Views/List';
 import Grid from './Views/Grid';
@@ -32,7 +32,7 @@ function App() {
           <Route path='/Portfolio' element={<Portfolio />} />
           <Route path='/Howwork' element={<Howwork />} />/
           <Route path='/Career' element={<Career />} />/
-          <Route path='/CareerToday' element={<CareerToday />} />/
+          <Route path='/Conact' element={<Conact />} />/
           <Route path='/AppName' element={<AppName />} />/
           <Route path='/List' element={<List />} />/
           <Route path='/Grid' element={<Grid/>} />/

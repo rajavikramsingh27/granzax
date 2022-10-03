@@ -10,11 +10,10 @@ export default class Footer extends Component {
                               <div className={Styles.footertitle}>
                                     <div className={Styles.footertext}>SOLUTIONS</div>
                                     <div className={Styles.footerminitext}>Home</div>
-                                    <div className={Styles.footerminitext}>Portfolio</div>
+                                    <div className={Styles.footerminitext}> About </div>
                                     <div className={Styles.footerminitext}>Services</div>
                                     <div className={Styles.footerminitext}>How we work</div>
                                     <div className={Styles.footerminitext}>Careers </div>
-                                    <div className={Styles.footerminitext}> About </div>
 
                               </div>
                               <div className={Styles.footertitle}>
@@ -43,18 +42,19 @@ export default class Footer extends Component {
                               </div>
                               <div className={Styles.footertitle}>
                                     <div className={Styles.footertext}> CONTACT</div>
-                                    <div className={Styles.footerminitext}>123, ABC Stgreet,  </div>
-                                    <div className={Styles.footerminitext}>ABC City India </div>
-                                    <div className={Styles.footerminitext}>+91-1234567890</div>
-                                    <div className={Styles.footerminitext}>hello@company.com</div>
-
+                                    <div className={Styles.footerminitext}>Ofc No. 61, First Floor, Shopping Center</div>
+                                    <div className={Styles.footerminitext}>Gulab Vihar, Katla Bazar, Sheopur Road</div>
+                                    <div className={Styles.footerminitext}>Pratap Nagar, Jaipur, Rajasthan, 302033</div>
+                                    <div className={Styles.footerminitext}>WhatsApp/Phone No.:- +91-6375425038</div>
+                                    <div className={Styles.footerminitext}>Connect to HR:- hr@granzax.com</div>
+                                    <div className={Styles.footerminitext}>Connect to Sales:- sales@granzax.com</div>
                               </div>
                         </div>
 
                         <div className={Styles.footerline}>
                               <div className={Styles.copyright}>Copyright ©2020 - 2022. All rights reserved.</div>
                               <div className={Styles.logo_Name}>
-                                    <img className={Styles.logo} src={ImageStyle.GranzaXLogoTransparent} />
+                                    <img className={Styles.logo} src={ImageStyle.GranzaXLogo} />
                                     <div className={Styles.ftily}> GranzaX Team LLP</div>
                               </div>
                         </div>

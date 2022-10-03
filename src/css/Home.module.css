@@ -70,7 +70,6 @@ body {
     height: auto;
     display: flex;
     flex-direction: row;
-
     padding-left: 20px;
 }
 .ourtext {
@@ -198,12 +197,12 @@ body {
     font-size: 30px;
     color: white;
     background-color: transparent;
+    margin-top: 30px;
 }
 .details {
-   margin: auto;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .minibox {
     margin-left: 100px;
@@ -256,6 +255,7 @@ body {
     font-size: 55px;
     text-align: center;
     color:#68BB1D;
+    margin-top: 40px;
 }
 .tech {
     font-size: 30px;

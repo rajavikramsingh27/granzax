@@ -43,9 +43,9 @@
     margin-right: 20px;
     margin-top: 20px;
 }
-.footertitle:hover {
+/* .footertitle:hover {
     cursor: pointer;
-}
+} */
 
 .footertext {
     font-size: 25px;
@@ -55,9 +55,9 @@
     font-size: 14px;
     margin-top: 8px;
 }
-.footerminitext:hover {
+/* .footerminitext:hover {
     color: #68BB1D;
-}
+} */
 .footerline {
     background-color: #1D1D1D;
     border-top: 1px solid #68BB1D;

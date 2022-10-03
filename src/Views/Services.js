@@ -68,14 +68,14 @@ export default class Services extends Component {
             </div>
              <div className={Styles.details}>
 
-             <div className={Styles.aboutbtn}>
+             {/* <div className={Styles.aboutbtn}>
              <NavLink className={Styles.btntext} to="/Mobile" >
             
             Explore
                <img className={Styles.arrow2} src={ImageStyle.arrowright} />
                           </NavLink>
       </div>
-      <img className={Styles.designicon}  src={ImageStyle.greenicon} />
+      <img className={Styles.designicon}  src={ImageStyle.greenicon} /> */}
              </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ export default class Services extends Component {
              
           </div>
           <div className={Styles.details}>
-          <div className={Styles.aboutbtn}>
+          {/* <div className={Styles.aboutbtn}>
           <NavLink className={Styles.btntext} to="/Mobile" >
             
           Explore
@@ -131,7 +131,7 @@ export default class Services extends Component {
                         </NavLink>
                         </div>
        
-      <img className={Styles.mobileicon}  src={ImageStyle.greenmob} />
+      <img className={Styles.mobileicon}  src={ImageStyle.greenmob} /> */}
              </div>
           
         </div>
@@ -188,14 +188,14 @@ export default class Services extends Component {
              
           </div>
           <div className={Styles.details}>
-          <div className={Styles.aboutbtn}>
+          {/* <div className={Styles.aboutbtn}>
           <NavLink className={Styles.btntext} to="/Mobile" >
             
             Explore
                <img className={Styles.arrow2} src={ImageStyle.arrowright} />
                           </NavLink>
       </div>
-      <img className={Styles.game}  src={ImageStyle.game2} />
+      <img className={Styles.game}  src={ImageStyle.game2} /> */}
              </div>
           
         </div>
@@ -245,14 +245,14 @@ export default class Services extends Component {
              
           </div>
           <div className={Styles.details}>
-          <div className={Styles.aboutbtn}>
+          {/* <div className={Styles.aboutbtn}>
           <NavLink className={Styles.btntext} to="/Mobile" >
             
             Explore
                <img className={Styles.arrow2} src={ImageStyle.arrowright} />
                           </NavLink>
-      </div>
-      <img className={Styles.game}  src={ImageStyle.web} />
+      </div> */}
+      {/* <img className={Styles.game}  src={ImageStyle.web} /> */}
              </div>
           
         </div>

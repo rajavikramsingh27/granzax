@@ -1,67 +1,81 @@
-*{
+* {
     font-family: 'Palatino';
 }
-.title{
+
+.title {
     color: white;
     font-size: 60px;
-    margin-top: 40px;
-    padding: 0px  20px;
+    margin-top: 80px;
+    padding: 0px 20px;
 }
-.subtitle{
+
+.subtitle {
     font-size: 20px;
-    color:#68BB1D;
-    padding: 0px  20px;
+    color: #68BB1D;
+    padding: 0px 20px;
+    margin-bottom: 20px;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: row;
     height: auto;
     justify-content: center;
 }
-.box1{
+
+.box1 {
     height: auto;
     width: 25%;
     margin: auto;
-     font-size: 140px;
-     font-weight: bold;
-     color:#68BB1D ;
+    font-size: 140px;
+    font-weight: bold;
+    color: #68BB1D;
 }
-.box2{
+
+.box2 {
     width: 70%;
     text-align: justify;
 }
-.analysis{
+
+.analysis {
     font-size: 35px;
     color: white;
 }
-.after{
+
+.after {
     font-size: 16px;
     color: white;
     line-height: 35px;
 }
-.buttenbox{
+
+.buttenbox {
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-bottom: 20px;
 }
-.btn{
+
+.btn {
     margin: 10px;
     font-size: 14px;
-  padding: 16px;
-  border: 1px solid white;
-  border-radius: 12px;
-  color: white;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
 }
-.btn:hover{
+
+/* .btn:hover {
     background-color: #68BB1D;
     border: none;
     cursor: pointer;
-}
-.btntext2{
+} */
+
+.btntext2 {
     margin-top: -20px;
 }
-.journey{
+
+.journey {
     text-align: center;
     border-radius: 50px;
     border: 1px solid #68BB1D;
@@ -71,30 +85,37 @@
     margin-bottom: 50px;
     padding: 16px;
 }
+
 @media screen and (max-width: 900px) {
-    .title{
+    .title {
         font-size: 50px;
     }
-    .box{
+
+    .box {
         flex-direction: column;
         margin-top: 0px;
     }
-    .box1{
-      width: auto;  
-      font-size: 70px;
+
+    .box1 {
+        width: auto;
+        font-size: 70px;
     }
-    .box2{
+
+    .box2 {
         text-align: justify;
         width: auto;
     }
-    .analysis{
+
+    .analysis {
         text-align: start;
         padding-left: 20px;
     }
-    .after{
+
+    .after {
         padding: 20px;
     }
-    .btn{
+
+    .btn {
         padding: 8px;
     }
 }

@@ -64,24 +64,21 @@ export default class Home extends Component {
     const apps = ['UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development']
     const imageapps = [ImageStyle.mobile1, ImageStyle.mobile2, ImageStyle.mobile3, ImageStyle.mobile4, ImageStyle.mobile5, ImageStyle.mobile6];
 
-    const names = ["Flutter", 'Goiang', 'React', 'Firebase', 'Docker', 'Kubernetes', "Flutter", 'Goiang', 'React',];
-    const image = [ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon, ImageStyle.firebase, ImageStyle.docker, ImageStyle.kuber, ImageStyle.flutter, ImageStyle.gologo, ImageStyle.Reacticon,]
+    const names = ["ios","Flutter", 'Nodejs', 'Reactjs','React Native', 'Android', 'MYSQL', 'Heroku ', "Google cloud ", 'Database ','NGINX','Server','SQL','Vercel','PostgreSQL','Mongo db','Dart','Express.js','AWS'];
+    const image = [ImageStyle.apple,ImageStyle.flutter, ImageStyle.node, ImageStyle.reactn, ImageStyle. reactn,  ImageStyle.android, ImageStyle. mys, ImageStyle.heroku, ImageStyle.gcolud, ImageStyle.database,ImageStyle.nginx,ImageStyle.server,ImageStyle.sql,ImageStyle.Vercel,ImageStyle.prsoql,ImageStyle.mongo,ImageStyle.dart,ImageStyle.express,ImageStyle.aws]
 
     return (
       <div className={Styles.body}>
         <Header />
         <div className={Styles.titlebox}>
-          <div className={Styles.textbox}>
+          <div>
             <div className={Styles.connecting}>Connecting Scraches from</div>
-            <div className={Styles.design}>DESIGN to DEVELOPMENT</div>
+            <div className={Styles.design}>DESIGN to DEVELOPMENT Our mission is to innovate, transform & deliver</div>
           </div>
-          {/* <div className={Styles.imgbox}>
-            <img className={Styles.pick} src={ImageStyle.GranzaXLogo} />
-          </div> */}
 
         </div>
         <div className={Styles.overtextbox} >
-          <div className={Styles.ourtext}>Our mission is to innovate, transform & deliver</div>
+          {/* <div className={Styles.ourtext}>Our mission is to innovate, transform & deliver</div> */}
           <div className={Styles.aboutbtn}>
             <div className={Styles.btntext}>About
 

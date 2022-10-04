@@ -35,9 +35,6 @@ body {
     margin-top: 40px;
      padding-left: 20px;
 }
-.textbox {
-    width: 700px;
-}
 .imgbox {
     width: 400px;
 }
@@ -51,7 +48,7 @@ body {
     font-weight: 700;
 }
 .design {
-    font-size: 55px;
+    font-size: 40px;
     color: white;
     font-weight: 700;
 }
@@ -263,7 +260,8 @@ body {
     text-align: center;
 }
 .project {
-    height: 150px;
+    background-color: white;
+    height: 160px;
     margin: 40px;
     display: flex;
     flex-direction: row;
@@ -273,16 +271,22 @@ body {
 .projecticon {
     height: 70px;
     width: 70px;
+    margin-top: 10px;
 }
 .pickicon {
+    /* background-color: #68BB1D; */
     height: 150px;
     width: 150px;
     align-items: center;
     margin: auto;
 }
 .projectname {
-    color: white;
+    color:black;
     padding-top: 20px;
+    text-align: center;
+    width: 80px;
+    font-weight: bold;
+    font-size: 16px;
 }
 .recentilywork {
     font-size: 45px;

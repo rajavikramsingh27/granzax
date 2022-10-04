@@ -24,45 +24,45 @@ export default class Services extends Component {
           <div className={Styles.detailsbox}>
             <div className={Styles.details}>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Interface Design</div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Interface Design</div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Interaction Design</div> 
               </div>
 
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Research </div> 
               </div>
 
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}>Prototyping   </div> 
               </div>
             </div>
             <div className={Styles.details}>
             <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Illustration Design</div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Motion Graphics & Animations</div> 
               </div>
 
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Icon Design </div> 
               </div>
 
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}>Logo Design </div> 
               </div>
             </div>
@@ -86,35 +86,35 @@ export default class Services extends Component {
           <div className={Styles.detailsbox}>
             <div className={Styles.details}>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> iPhone App Development </div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}>Android App Development </div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}>Swift App Development </div> 
               </div>
 
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Flutter App Development </div> 
               </div>
 
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> React App Development  </div> 
               </div>
             </div>
             <div className={Styles.details}>
             <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> React Native Development</div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Ionic App Development</div> 
               </div>
         
@@ -137,93 +137,31 @@ export default class Services extends Component {
         </div>
         </div>
 
-        <div className={Styles.servicetitlebox}>
-          <div className={Styles.servicetitle}> Game Development</div>
-          <div className={Styles.detailsbox}>
-            <div className={Styles.details}>
-              <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}> Mobile Game Development </div> 
-              </div>
-              <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}>Web Game Development </div> 
-              </div>
-              <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}>MMORPG </div> 
-              </div>
-
-              <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}>First person - Third person shooter  </div> 
-              </div>
-
-            
-            </div>
-            <div className={Styles.details}>
-            <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}> Unity Development</div> 
-              </div>
-              <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}>  Unity Synthetic Data</div> 
-              </div>
-              <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}>  Unity Computer vision</div> 
-              </div>
-              <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}>Unity Simulation </div> 
-              </div>
-              <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
-             <div className={Styles.inter}>Industrial augmented reality  </div> 
-              </div>
-        
-          
-              
-             
-          </div>
-          <div className={Styles.details}>
-          {/* <div className={Styles.aboutbtn}>
-          <NavLink className={Styles.btntext} to="/Mobile" >
-            
-            Explore
-               <img className={Styles.arrow2} src={ImageStyle.arrowright} />
-                          </NavLink>
-      </div>
-      <img className={Styles.game}  src={ImageStyle.game2} /> */}
-             </div>
-          
-        </div>
-        </div>
+      
 
         <div className={Styles.servicetitlebox}>
           <div className={Styles.servicetitle}>Web Development  </div>
           <div className={Styles.detailsbox}>
             <div className={Styles.details}>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}>ReactJS Development </div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}>VueJS Development </div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}>Angular Development </div> 
               </div>
 
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Back End Web Development </div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Node.js Development </div> 
               </div>
 
@@ -231,11 +169,11 @@ export default class Services extends Component {
             </div>
             <div className={Styles.details}>
             <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}> Laravel Development</div> 
               </div>
               <div className={Styles.text}>
-              <img  className={ Styles.arrow} src={ImageStyle.arrowright}/>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
              <div className={Styles.inter}>  Golang Development</div> 
               </div>
              
@@ -256,6 +194,193 @@ export default class Services extends Component {
              </div>
           
         </div>
+        </div>
+
+
+
+        {/* ////// */}
+        <div className={Styles.servicetitlebox}>
+          <div className={Styles.servicetitle}>Backend/DataBase Development</div>
+          <div className={Styles.detailsbox}>
+            <div className={Styles.details}>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interface Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interface Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interaction Design</div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Research </div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}>Prototyping   </div> 
+              </div>
+            </div>
+            <div className={Styles.details}>
+            <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Illustration Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Motion Graphics & Animations</div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Icon Design </div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}>Logo Design </div> 
+              </div>
+            </div>
+             <div className={Styles.details}>
+
+             {/* <div className={Styles.aboutbtn}>
+             <NavLink className={Styles.btntext} to="/Mobile" >
+            
+            Explore
+               <img className={Styles.arrow2} src={ImageStyle.arrowright} />
+                          </NavLink>
+      </div>
+      <img className={Styles.designicon}  src={ImageStyle.greenicon} /> */}
+             </div>
+          </div>
+        </div>
+        {/* ////// */}
+        <div className={Styles.servicetitlebox}>
+          <div className={Styles.servicetitle}>Deployment </div>
+          <div className={Styles.detailsbox}>
+            <div className={Styles.details}>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interface Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interface Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interaction Design</div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Research </div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}>Prototyping   </div> 
+              </div>
+            </div>
+            <div className={Styles.details}>
+            <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Illustration Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Motion Graphics & Animations</div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Icon Design </div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}>Logo Design </div> 
+              </div>
+            </div>
+             <div className={Styles.details}>
+
+             {/* <div className={Styles.aboutbtn}>
+             <NavLink className={Styles.btntext} to="/Mobile" >
+            
+            Explore
+               <img className={Styles.arrow2} src={ImageStyle.arrowright} />
+                          </NavLink>
+      </div>
+      <img className={Styles.designicon}  src={ImageStyle.greenicon} /> */}
+             </div>
+          </div>
+        </div>
+
+
+        <div className={Styles.servicetitlebox}>
+          <div className={Styles.servicetitle}>Server Management </div>
+          <div className={Styles.detailsbox}>
+            <div className={Styles.details}>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interface Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interface Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Interaction Design</div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Research </div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}>Prototyping   </div> 
+              </div>
+            </div>
+            <div className={Styles.details}>
+            <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Illustration Design</div> 
+              </div>
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Motion Graphics & Animations</div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}> Icon Design </div> 
+              </div>
+
+              <div className={Styles.text}>
+              <img  className={ Styles.arrow} src={ImageStyle.righthand}/>
+             <div className={Styles.inter}>Logo Design </div> 
+              </div>
+            </div>
+             <div className={Styles.details}>
+
+             {/* <div className={Styles.aboutbtn}>
+             <NavLink className={Styles.btntext} to="/Mobile" >
+            
+            Explore
+               <img className={Styles.arrow2} src={ImageStyle.arrowright} />
+                          </NavLink>
+      </div>
+      <img className={Styles.designicon}  src={ImageStyle.greenicon} /> */}
+             </div>
+          </div>
         </div>
 
 

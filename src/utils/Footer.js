@@ -14,9 +14,8 @@ export default class Footer extends Component {
                                     <div className={Styles.footerminitext}>Services</div>
                                     <div className={Styles.footerminitext}>How we work</div>
                                     <div className={Styles.footerminitext}>Careers </div>
-
                               </div>
-                              <div className={Styles.footertitle}>
+                              {/* <div className={Styles.footertitle}>
                                     <div className={Styles.footertext}>SERVICES</div>
                                     <div className={Styles.footerminitext}> Android App Development</div>
                                     <div className={Styles.footerminitext}>Cross Platform</div>
@@ -25,7 +24,7 @@ export default class Footer extends Component {
                                     <div className={Styles.footerminitext}>UI/UX Designs </div>
                                     <div className={Styles.footerminitext}> CRM Solutions </div>
 
-                              </div>
+                              </div> */}
                               <div className={Styles.footertitle}>
                                     <div className={Styles.footertext}>INDUSTRIES</div>
                                     <div className={Styles.footerminitext}> Food and Restaurants</div>

@@ -114,67 +114,84 @@
     height: 75px;
     width: 60px;
 }
+
 .mydetails {
     height: auto;
-    width: auto;
-    margin: 50px 60px 50px 60px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
     background-color: black;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    justify-content: center;
     align-items: center;
-    border-radius: 50px;
-padding: 10px;
+    align-self: center;
 }
+
 .my {
     font-weight: 800px;
     font-size: 16px;
     color: white;
-    padding: 20px 0px 12px 30px;
+    padding: 20px 0px 12px 0px;
+    /* background-color: rebeccapurple; */
+
 }
+
 .input {
     height: 40px;
-    width:90% ;
-    margin: 0px 30px 0px 30px;
-    color:black;
+    width: 96%;
+    /* margin: 0px 0px 0px 30px; */
+    color: black;
     font-weight: 800px;
-    background-color:white;
+    background-color: white;
     outline: none;
     border: none;
     padding: 6px;
-    border-radius: 6px;
+    border-radius: 4px;
     font-size: 16px;
 }
-.flex{
+
+.flex {
     display: flex;
     flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.inputbackbox{
- width: 48%;
-    /* background-color: rgb(236, 243, 247); */
+
+.inputbackbox {
+    width: 50%;
     height: 250px;
-    margin-left: 10px;
+    /* background-color: red; */
 }
+
 .inputarea {
     height: 80px;
-    width:93% ;
-    margin: 0px 30px 40px 40px;
-    color:black;
+    width: 88%;
+    margin: 0px 30px 0px 30px;
+    color: black;
     font-weight: 800px;
-    background-color:white;
+    background-color: white;
     outline: none;
     border: none;
     padding: 12px;
     font-size: 16px;
-    border-radius: 6px;
+    border-radius: 4px;
 }
+
 .mymsg {
     font-size: 16px;
     font-weight: 800px;
     color: white;
-    padding: 0px 0px 12px 40px;
+    padding: 16px 30px 12px 30px;
+    text-align: left;
 }
 
 .btn {
     height: 50px;
-    width:  180px;
+    width: 180px;
     background-color: black;
     padding: 6px;
     font-size: 18px;
@@ -188,12 +205,14 @@ padding: 10px;
     margin-bottom: 30px;
 
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #68BB1D;
     cursor: pointer;
 }
+
 .boxtitle {
-    text-align: center;  
+    text-align: center;
     font-weight: bold;
     color: white;
     font-size: 22px;
@@ -222,24 +241,32 @@ padding: 10px;
         font-size: 28px;
         line-height: 35px;
     }
-    .contectbox{ 
+
+    .contectbox {
         flex-direction: column;
         /* height: auto; */
     }
-    .flex{
+
+    .flex {
         flex-direction: column;
     }
-    .input{
-        width: 90%;
+
+    .input {
+        width: 100%;
     }
-    .inputbackbox{
+
+    .inputbackbox {
         width: 90%;
         height: auto;
         margin-left: 0px;
     }
-    .inputarea{
-        width: 80%;
+
+    .inputarea {
+        width: 82%;
     }
 
-
+    .mydetails {
+        margin-left: 10%;
+        width: 80%;
+    }
 }

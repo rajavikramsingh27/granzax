@@ -9,7 +9,7 @@ import flutter from "../../Assets/Images/flutter.png"
 import gologo from "../../Assets/Images/gologo.png"
 import Reacticon from "../../Assets/Images/Reacticon.png"
 import reactn from "../../Assets/Images/reactn.png"
-import reactjs from "../../Assets/Images/reactjs.png"
+// import reactjs from "../../Assets/Images/reactjs.png"
 import firebase from "../../Assets/Images/firebase.png"
 import docker from "../../Assets/Images/docker.png"
 import kuber from "../../Assets/Images/kuber.png"
@@ -36,22 +36,22 @@ import pick from "../../Assets/Images/pick.png"
 import location from "../../Assets/Images/location.png"
 import googal from "../../Assets/Images/googal.png"
 import righthand from "../../Assets/Images/righthand.png"
-import apple from "../../Assets/Images/apple.jpg"
+import apple from "../../Assets/Images/apple.png"
 import node from "../../Assets/Images/node.png"
 import android from "../../Assets/Images/android.png"
 import mys from "../../Assets/Images/mys.png"
 import heroku from "../../Assets/Images/heroku.png"
 import gcolud from "../../Assets/Images/gcolud.png"
-import database from "../../Assets/Images/database.jpg"
+import database from "../../Assets/Images/database.png"
 import aw from "../../Assets/Images/aw.png"
-import nginx from "../../Assets/Images/nginx.jpg"
-import server from "../../Assets/Images/server.jpg"
+import nginx from "../../Assets/Images/nginx.png"
+import server from "../../Assets/Images/server.png"
 import sql from "../../Assets/Images/sql.png"
 import Vercel from "../../Assets/Images/Vercel.png"
 import prsoql from "../../Assets/Images/prsoql.png"
 import mongo from "../../Assets/Images/mongo.png"
 import dart from "../../Assets/Images/dart.png"
-import express from "../../Assets/Images/express.jpg"
+import express from "../../Assets/Images/express.png"
 import aws from "../../Assets/Images/aws.png"
 
 export const ImageStyle = {
@@ -102,7 +102,7 @@ export const ImageStyle = {
     server: server,
     sql: sql,
     reactn: reactn,
-    reactjs: reactjs,
+    // reactjs: reactjs,
     Vercel: Vercel,
     prsoql: prsoql,
     mongo: mongo,

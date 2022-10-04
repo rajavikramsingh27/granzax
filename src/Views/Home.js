@@ -60,28 +60,46 @@ export default class Home extends Component {
   };
 
   render() {
-    const appname = ['Abc project', 'Abc project', 'Abc project', 'Abc project', 'Abc project', 'Abc project']
-    const apps = ['UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development']
-    const imageapps = [ImageStyle.mobile1, ImageStyle.mobile2, ImageStyle.mobile3, ImageStyle.mobile4, ImageStyle.mobile5, ImageStyle.mobile6];
+    // const appname = ['Abc project', 'Abc project', 'Abc project', 'Abc project', 'Abc project', 'Abc project']
+    // const apps = ['UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development', 'UI/UX, Mobile App Development']
+    // const imageapps = [ImageStyle.mobile1, ImageStyle.mobile2, ImageStyle.mobile3, ImageStyle.mobile4, ImageStyle.mobile5, ImageStyle.mobile6];
 
-    const names = ["ios","Flutter", 'Nodejs', 'Reactjs','React Native', 'Android', 'MYSQL', 'Heroku ', "Google cloud ", 'Database ','NGINX','Server','SQL','Vercel','PostgreSQL','Mongo db','Dart','Express.js','AWS'];
-    const image = [ImageStyle.apple,ImageStyle.flutter, ImageStyle.node, ImageStyle.reactn, ImageStyle. reactn,  ImageStyle.android, ImageStyle. mys, ImageStyle.heroku, ImageStyle.gcolud, ImageStyle.database,ImageStyle.nginx,ImageStyle.server,ImageStyle.sql,ImageStyle.Vercel,ImageStyle.prsoql,ImageStyle.mongo,ImageStyle.dart,ImageStyle.express,ImageStyle.aws]
+    const names = ['iOS', 'Android', 'Flutter', 'Dart', 'React.js', 'React Native', 'Node.js', 'Express.js', 'MongoDB', 'SQL', 'MYSQL', 'PostgreSQL', 'DataBase', 'Server', 'AWS', 'Google Cloud', 'HeroKu', 'Vercel', 'NGINX'];
+    const image = [
+      ImageStyle.apple,
+      ImageStyle.android,
+      ImageStyle.flutter,
+      ImageStyle.dart,
+      ImageStyle.reactn,
+
+      ImageStyle.reactn,
+      ImageStyle.node,
+      ImageStyle.express,
+      ImageStyle.mongo,
+      ImageStyle.sql,
+
+      ImageStyle.mys,
+      ImageStyle.prsoql,
+      ImageStyle.database,
+      ImageStyle.server,
+      ImageStyle.aws,
+
+      ImageStyle.gcolud,
+      ImageStyle.heroku,
+      ImageStyle.Vercel,
+      ImageStyle.nginx,
+    ]
 
     return (
       <div className={Styles.body}>
         <Header />
         <div className={Styles.titlebox}>
-          <div>
-            <div className={Styles.connecting}>Connecting Scraches from</div>
-            <div className={Styles.design}>DESIGN to DEVELOPMENT Our mission is to innovate, transform & deliver</div>
-          </div>
-
+          <div className={Styles.design}>Connecting Scraches from DESIGN to DEVELOPMENT Our mission is to innovate, transform & deliver</div>
         </div>
         <div className={Styles.overtextbox} >
           {/* <div className={Styles.ourtext}>Our mission is to innovate, transform & deliver</div> */}
           <div className={Styles.aboutbtn}>
             <div className={Styles.btntext}>About
-
               <img className={Styles.arrow} src={ImageStyle.arrowright} /></div>
           </div>
         </div>
@@ -114,7 +132,7 @@ export default class Home extends Component {
             </div>
 
           </div>
-          
+
           <div className={Styles.overtextbox}>
             <div className={Styles.ourtext}>What can we do for you?</div>
             <div className={Styles.aboutbtn}>
@@ -163,7 +181,8 @@ export default class Home extends Component {
           </div>
 
           <div className={Styles.trand}>Technologies</div>
-          <ScrollMenu className={Styles.scroll}>
+          <ScrollMenu
+            className={Styles.scroll}>
             <div className={Styles.project}>
               {
                 image.map((data, index) =>

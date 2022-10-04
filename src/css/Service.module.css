@@ -49,19 +49,16 @@
    margin: 20px;
 }
 .arrow {
-    height: 15px;
+    height: 25px;
     width: 28px;
-    margin: 22px 5px 0px  0px;
+    margin: 15px 5px 0px  0px;
 }
 .inter {
     padding-top: 15px;
-    font-size: 15px;
+    font-size: 16px;
     color: white; 
 }
-.inter:hover {
-    color: #68BB1D;
-    cursor: pointer;
-}
+
 .aboutbtn {
     height: 50px;
     width: 200px;
@@ -122,9 +119,9 @@
         flex-direction: column;
     }
     .arrow {
-        height: 12px;
+        height: 20px;
         width: 22px;
-        margin: 10px 5px 0px  0px;
+        margin: 2px 5px 0px  0px;
     }
     .text{
         margin: 5px;

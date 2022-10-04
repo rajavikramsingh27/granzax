@@ -253,20 +253,27 @@ body {
     text-align: center;
     color:#68BB1D;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .tech {
     font-size: 30px;
     color: white;
     text-align: center;
 }
+.scroll {
+    
+}
+
 .project {
     background-color: white;
     height: 160px;
-    margin: 40px;
+    margin: 0px;
+    /* margin: 40px; */
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-   
 }
 .projecticon {
     height: 70px;

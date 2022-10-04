@@ -8,7 +8,7 @@ export default class Footer extends Component {
                   <div>
                         <div className={Styles.footer}>
                               <div className={Styles.footertitle}>
-                                    <div className={Styles.footertext}>SOLUTIONS</div>
+                                    <div className={Styles.footertext}>Pages</div>
                                     <div className={Styles.footerminitext}>Home</div>
                                     <div className={Styles.footerminitext}> About </div>
                                     <div className={Styles.footerminitext}>Services</div>
@@ -61,6 +61,5 @@ export default class Footer extends Component {
             );
       }
 }
-
 
 

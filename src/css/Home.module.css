@@ -66,6 +66,7 @@ body {
 .overtextbox {
     height: auto;
     display: flex;
+    margin-left: 16px;
     flex-direction: row;
     padding-left: 20px;
 }
@@ -131,8 +132,6 @@ body {
 }
 .graybox {
     background-color: hsl(0, 1%, 23%);
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 30px;
     border-radius: 6px;
 }
@@ -186,6 +185,7 @@ body {
 }
 .webelive {
     font-size: 18px;
+    margin-left: 30px;
     color: white;
     margin-right: 200px;
     background-color: transparent;
@@ -195,6 +195,7 @@ body {
     color: white;
     background-color: transparent;
     margin-top: 30px;
+    margin-left: 30px;
 }
 .details {
     display: flex;
@@ -260,17 +261,10 @@ body {
     color: white;
     text-align: center;
 }
-.scroll {
-    
-}
-
 .project {
     background-color: white;
     height: 160px;
-    margin: 0px;
-    /* margin: 40px; */
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;

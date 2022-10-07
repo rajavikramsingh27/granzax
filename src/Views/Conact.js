@@ -73,9 +73,11 @@ export default class Conact extends Component {
               <input type="text" className={Styles.input} placeholder='Your Phone*' />
             </div>
           </div>
+          <div className={Styles.mytext}>
+
           <div className={Styles.mymsg}>Massage* </div>
           <textarea type="textarea" className={Styles.inputarea} placeholder='Write us a message' />
-        </div>
+        </div></div>
         <div className={Styles.btnback}>
           <div className={Styles.btn}>Submit</div>
         </div>

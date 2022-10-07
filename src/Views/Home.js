@@ -111,7 +111,7 @@ export default class Home extends Component {
             </div>
             <div className={Styles.minitext} >We have been revolutionizing businesses since 2022, and it is our mission to deliver powerful solutions that meet our client's objectives.</div>
           </div>
-          <div className={Styles.teamimg}>
+<div className={Styles.teamimg}>
 
             <img className={Styles.workman} src={ImageStyle.worktime} />
           </div>
@@ -219,7 +219,7 @@ export default class Home extends Component {
 
 
 
-        </div>
+         </div>
         <Footer />
       </div>
     )
